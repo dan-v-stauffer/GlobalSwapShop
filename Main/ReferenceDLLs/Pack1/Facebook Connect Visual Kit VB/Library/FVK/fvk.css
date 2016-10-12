@@ -1,0 +1,87 @@
+.button {
+  background-color:#3B5998;
+  border-color:#D9DFEA;
+  border-style:solid;
+  border-width:1px;
+  color:#FFFFFF;
+  font-family:tahoma;
+  font-size:11px;
+  padding:2px 15px 3px;
+  text-align:center;
+}
+
+
+
+
+.friendsSelectLink
+{
+    white-space: nowrap;
+    padding-right:10px;
+}
+
+
+.pagetab
+{
+    padding:2px; 
+    border:1px solid #898989;
+    height:15px;
+    font-size:12;
+    font-weight:bold;
+    text-align:center;
+    background-color:#f1f1f1;
+    white-space: nowrap;
+    margin-left:0px;
+}
+
+.pagetabactive
+{
+    padding:2px; 
+    border:1px solid #3b5998;
+    height:15px;
+    font-size:12;
+    font-weight:bold;
+    text-align:center;
+    background-color:#6d84b4;
+    white-space: nowrap;
+    margin-left:-1px;
+}
+
+.hidden
+{
+    display:none;
+}
+
+
+.checkbox
+{
+    vertical-align:middle;
+    font-size:10px;
+    font-weight:normal;
+}
+
+
+.boxdiv
+{
+    background:white none repeat 0 0;
+    border:1px solid silver;
+    font-size:9px;
+    overflow:hidden;
+    padding:0px;
+}
+
+.boxtitle
+{
+    background:#6D84B4 none repeat 0 0; 
+    color:White;
+    padding:2px;
+    padding-left:5px;
+}
+
+
+.selectfriendsdiv
+{
+    background:white none repeat 0 0;
+    border:1px solid silver;
+    font-size:9px;
+    overflow:auto;
+}

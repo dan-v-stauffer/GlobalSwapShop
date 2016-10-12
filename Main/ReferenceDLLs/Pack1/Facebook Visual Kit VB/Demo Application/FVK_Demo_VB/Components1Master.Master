@@ -1,0 +1,18 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" MasterPageFile="~/Master.Master" CodeBehind="Components1Master.Master.vb" Inherits="FVK_Demo.Components1Master" %>
+<%@ Register TagPrefix="fvk" TagName="tab" Src="~/FVK/TabControl.ascx" %>
+<asp:Content ID="HeadContent1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder2" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content runat="server" ID="Master1Content" ContentPlaceHolderID="ContentPlaceHolder1">
+    <br />
+    <br />
+    
+    <fvk:tab id="tab2" runat="server" /> 
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>   

@@ -1,0 +1,20 @@
+﻿body {
+  background: #fff;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 13px;
+  padding: 0px;
+  text-align: left; 
+}
+
+h1, h2, h3, h4, h5 {
+    margin:0;
+}
+
+a:hover {
+	text-decoration:none;
+}
+a {
+	color:#3B5998;
+	text-decoration:none;
+}
+

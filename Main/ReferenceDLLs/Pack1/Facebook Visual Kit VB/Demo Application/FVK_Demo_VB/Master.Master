@@ -1,0 +1,37 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.master.vb" Inherits="FVK_Demo.Master" %>
+<%@ Register TagPrefix="fvk" TagName="initfvk" Src="~/FVK/InitFVK.ascx" %>
+<%@ Register TagPrefix="fvk" TagName="enableresizable" Src="~/FVK/EnableResizable.ascx" %>
+<%@ Register TagPrefix="fvk" TagName="tab" Src="~/FVK/TabControl.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+
+<head id="Head1" runat="server">
+    <title>FVK Demo</title>
+    
+    <link rel="stylesheet" type="text/css" href="FVK/fvk.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <fvk:initfvk ID="initfvk1" runat="server" />
+    <fvk:enableresizable ID="resizable" runat="server" />
+    <img src="Images/banner.png" alt="" />
+    <form id="form1" runat="server">
+     <asp:ScriptManager ID="ScriptManager1" runat="server">
+     </asp:ScriptManager>
+     
+    <br />
+    <fvk:tab ID="tab1" runat="server" />
+   
+    
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+    
+</body>
+</html>

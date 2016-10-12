@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APP_WELCOME" xml:space="preserve">
+    <value>Добро пожаловать в GlobalSwapShop.com</value>
+  </data>
+  <data name="CAPTCHA_ERROR" xml:space="preserve">
+    <value>Вступление не соответствует изображению. Пожалуйста, попробуйте еще раз.</value>
+  </data>
+  <data name="CAPTCHA_ERROR_SUMMARY" xml:space="preserve">
+    <value>Вступление проверки не удалось. Пожалуйста, попробуйте еще раз.</value>
+  </data>
+  <data name="CAPTCHA_LEN_INSTRUCTIONS" xml:space="preserve">
+    <value>&lt;div&gt; Введите {0}-символьный код, отображаемый на рисунке ниже. &lt;br&gt; символов не учитывается. &lt;/ P&gt;</value>
+  </data>
+  <data name="CAPTCHA_LEN_MESSAGE" xml:space="preserve">
+    <value>Изображение {0} символов и не чувствительны к регистру.</value>
+  </data>
+  <data name="CREATE_USER_DESCRIPTION" xml:space="preserve">
+    <value>Зарегистрируйтесь в GlobalSwapShop.com наслаждаться преимуществами по всему миру бартерной торговли!</value>
+  </data>
+  <data name="CREATE_USER_HDR" xml:space="preserve">
+    <value>Создать новую учетную запись</value>
+  </data>
+  <data name="PRIVACY_POLICY" xml:space="preserve">
+    <value>&lt;div&gt;
+&lt;! - START ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ CODE -&gt;
+        &lt;div style=""font-family:arial""&gt;
+            &lt;strong&gt; Какую информацию мы собираем? &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Мы собираем информацию от вас, когда вы регистрируетесь на нашем сайте.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            При заказе или регистрации на нашем сайте, в случае необходимости, вы можете попросить
+            введите: имя или адрес электронной почты. Однако Вы можете, посетив наш сайт
+            анонимно. Вы также можете подключиться через Facebook. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Как мы используем вашу информацию? &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Любая информация, которую мы получаем от Вас, может быть использован в одной из следующих
+            способами:
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; Чтобы персонализировать ваш опыт &lt;br /&gt;
+            (Ваша информация поможет нам более эффективно реагировать на ваши индивидуальные потребности) &lt;br /&gt;
+            &lt;br /&gt;
+            ; Для улучшения нашего сайта &lt;br /&gt;
+            (Мы постоянно стремимся улучшить наш веб-сайт предложений на основе информации,
+            и обратной связи с вами) &lt;br /&gt;
+            &lt;br /&gt;
+            ; Для улучшения обслуживания клиентов &lt;br /&gt;
+            (Ваша информация поможет нам более эффективно реагировать на ваше обслуживание клиентов
+            запросы и потребности в поддержке) &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; Чтобы отправить периодические сообщения &lt;br /&gt;
+            &lt;br /&gt;
+            Адрес электронной почты, которую Вы предоставили, могут быть использованы для рассылки информации, ответить на
+            запросы, и / или другие пожелания или вопросы. &lt;br /&gt;
+            &lt;br /&gt;
+            Примечание: Если в любое время вы хотели бы отказаться от дальнейшего получения сообщений электронной почты,
+            мы включают подробные инструкции отписаться в нижней части каждого письма. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Как мы защищаем Вашу информацию? &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Мы реализуем множество мер безопасности для обеспечения безопасности вашего
+            личную информацию, когда вы размещаете заказ &lt;br /&gt;
+            &lt;br /&gt;
+            Мы предлагаем использование безопасного сервера. Все поставляемое чувствительной / кредитной информации
+            передается через Secure Socket Layer (SSL) технологии, а затем в зашифрованные
+            наш платежный шлюз поставщики баз данных только, чтобы быть доступными с разрешения
+            со специальными правами доступа к таким системам, и от них требуется? держать
+            конфиденциальность информации. &lt;br /&gt;
+            &lt;br /&gt;
+            После сделки, ваша личная информация (кредитные карты, социальное обеспечение
+            чисел, финансовые и т.д.) не будет храниться на наших серверах. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; ли мы использовать куки? &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Да (Cookies это небольшие файлы, сайта или его услуг переводов в
+            жесткий диск вашего компьютера через веб-браузер (если вы позволите), что позволяет
+            сайтов или поставщиков услуг системам распознавать ваш браузер и захватывать и
+            вспомнить некоторые &lt;br /&gt; информации
+            &lt;br /&gt;
+            Мы используем их, чтобы понять и сохранить настройки для будущих визитов и
+            сбора общей информации о трафике сайта и взаимодействия, чтобы мы могли
+            предложить лучшую сайта опыта и инструментов в будущем. Мы можем заключать контракты с
+            сторонних поставщиков услуг, чтобы помочь нам лучше понять наш сайт
+            посетителей. Эти поставщики услуг не допускается использование информации
+            собранные от нашего имени, кроме, чтобы помочь нам улучшить поведение и наш бизнес. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; ли мы раскрывать любую информацию посторонним? &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Мы не продаем, не торговля, или иным образом передавать посторонним вашу персональную
+            идентификационной информацией. Эта цифра не включает доверенной третьей стороны, которые помогают
+            нам в работе нашего сайта, ведение нашего бизнеса, или обслуживанием вас, до тех пор,
+            как те, стороны соглашаются, чтобы эта информация конфиденциальная. Мы также можем
+            релиз Вашу информацию, когда мы считаем релиз соответствующие соблюдать
+            права, соблюдение наших правил сайта, или защищает наши или другие права, собственность,
+            или безопасность. Однако, не личную информацию посетителя может быть
+            предоставляется другим лицам в маркетинговых, рекламных или других целях. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Ссылки на третьих лиц &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Иногда, по нашему усмотрению, мы можем включить или предлагают продукты третьих сторон или
+            услуги на нашем сайте. Эти сайты третьих сторон имеют отдельные и независимые
+            политикой конфиденциальности. Поэтому мы не несем никакой ответственности или обязательств за
+            содержание и деятельность этих сайтов. Тем не менее, мы стремимся защитить
+            целостности нашего сайта и приветствуем любые отзывы об этих сайтах. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Калифорнии Интернет Защита Соблюдение закона &lt;/ STRONG&gt; &lt;br /&gt;
+            &lt;br /&gt;
+            Поскольку мы ценим вашу конфиденциальность мы приняли необходимые меры предосторожности, чтобы быть в
+            соблюдение конфиденциальности Калифорнии закон о защите Интернет. Поэтому мы будем
+            не распространять вашу личную информацию третьим лицам без Вашего
+            согласия. &lt;br /&gt;
+            &lt;br /&gt;
+            В рамках Калифорнии Интернет конфиденциальности Закон о защите, все пользователи нашего сайта
+            может вносить изменения в свою информацию в любое время, войдя в их
+            панель управления и, подойдя к странице "Изменить профиль". &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Детский Интернет Защита Соблюдение закона &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Мы в соответствии с требованиями COPPA (Privacy Детский Интернет
+            Закон о защите), мы не собираем никакой информации от лиц, не достигших 13 лет
+            возраста. Наш сайт, продукты и услуги, все направлено на людей, которые находятся на
+            не менее 13 лет и старше. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; политике конфиденциальности в Интернете только &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Этот онлайновый политика конфиденциальности относится только к информации, собранной через наш
+            веб-сайт, а не к информации, собранной в автономном режиме. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Условия &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Пожалуйста, посетите нашу Условия создания раздела использование,
+            отказы и ограничения ответственности, регулирующие использование наш сайт по адресу
+            &lt;a href=""http://www.globalswapshop.com""&gt; http://www.globalswapshop.com &lt;/a&gt; &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Согласие Ваш &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            С помощью нашего сайта, Вы соглашаетесь на наши
+                        &lt;a href="http://www.freeprivacypolicy.com/" 
+                style="text-decoration:none; color:#3C3C3C;" target="_blank"&gt; конфиденциальности в Интернете
+            Политика &lt;/a&gt;. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Изменения в нашей политике конфиденциальности &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Если мы решим изменить нашу политику конфиденциальности, мы опубликуем эти изменения на этой
+            страницы, отправлять по электронной почте уведомление Вас о любых изменениях и / или обновить конфиденциальности
+            Политика дате изменения ниже.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Связаться с нами &lt;/ STRONG&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Если Есть какие-либо вопросы относительно данной политики конфиденциальности Вы можете связаться с нами
+            используя информацию ниже.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            http://www.globalswapshot.com &lt;br /&gt;
+            contactus@globalswapshop.com &lt;br /&gt;
+            &lt;center&gt;
+                &lt;div style="font-size:7pt; font-family:Arial; color:gray; text-decoration:none;"&gt;
+                    Privacy Policy Created by &lt;a href="http://www.freeprivacypolicy.com" 
+                        style="color:#3C3C3C; text-decoration:none;" target="_blank"&gt;Free Privacy 
+                    Policy&lt;/a&gt;&lt;/div&gt;
+            &lt;/center&gt;
+            &lt;! - END ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ CODE -&gt;
+      &lt;div&gt;
+</value>
+  </data>
+  <data name="REGISTER_USER_TITLE" xml:space="preserve">
+    <value>Информация об учетной записи</value>
+  </data>
+  <data name="SET_PASSWORD_LEN_ERR" xml:space="preserve">
+    <value>Пароли должны быть не менее {0} символов.</value>
+  </data>
+  <data name="TERMS_OF_USE" xml:space="preserve">
+    <value />
+  </data>
+</root>

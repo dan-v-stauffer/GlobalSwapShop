@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APP_WELCOME" xml:space="preserve">
+    <value>欢迎光临的GlobalSwapShop.com</value>
+  </data>
+  <data name="CAPTCHA_ERROR" xml:space="preserve">
+    <value>条目不匹配的形象。请再试一次。</value>
+  </data>
+  <data name="CAPTCHA_ERROR_SUMMARY" xml:space="preserve">
+    <value>入境验证失败。请再试一次。
+</value>
+  </data>
+  <data name="CAPTCHA_LEN_INSTRUCTIONS" xml:space="preserve">
+    <value>&lt;DIV&gt;输入{0}个字符的代码，下面的图像显示。参考字符不区分大小写。&lt;/ DIV&gt;
+</value>
+  </data>
+  <data name="CAPTCHA_LEN_MESSAGE" xml:space="preserve">
+    <value>图像有{0}个字符，不区分大小写。
+</value>
+  </data>
+  <data name="CREATE_USER_DESCRIPTION" xml:space="preserve">
+    <value>与GlobalSwapShop.com注册享受到全球易货交易的好处！
+</value>
+  </data>
+  <data name="CREATE_USER_HDR" xml:space="preserve">
+    <value>创建一个新帐户
+</value>
+  </data>
+  <data name="PRIVACY_POLICY" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            通过使用我们的网站，您同意我们 
+            &lt;A HREF =“htt​​p://www.freeprivacypolicy.com/” 
+                风格=“文本装饰：无;颜色：＃3C3C3C;”目标=“_blank”&gt;在线隐私 
+            政策&lt;/ a&gt;。&lt;br /&gt; 
+            &lt;br /&gt; 
+            &lt;STRONG&gt;改变我们的隐私政策&lt;/ strong&gt; 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            如果我们决定改变我们的隐私政策，我们将在此这些变化 
+            网页，发送电子邮件通知的任何更改和/或更新个人资料私隐 
+            政策修改日期如下。 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            &lt;STRONG&gt;与我们联系&lt;/ STRONG&gt; 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            如果有任何问题，您对本隐私政策可能与我们联系 
+            使用下面的信息。 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            http://www.globalswapshot.com &lt;br /&gt; 
+            contactus@globalswapshop.com &lt;br /&gt; 
+            &lt;CENTER&gt; 
+                &lt;div style="font-size:7pt; font-family:Arial; color:gray; text-decoration:none;"&gt; 
+                    隐私权政策造成的&lt;A HREF =“htt​​p://www.freeprivacypolicy.com” 
+                        风格=“颜色：＃3C3C3C;文字装饰：无;”目标=“_blank”&gt;免费隐私 
+                    政策&lt;/ A&gt; &lt;/ DIV&gt; 
+            &lt;/ CENTER&gt; 
+        &lt;/ DIV&gt; 
+        &lt;CENTER&gt; 
+            &lt; - END隐私政策法规 - &gt; 
+        &lt;/ CENTER&gt; 
+    &lt;/ DIV&gt;
+</value>
+  </data>
+  <data name="REGISTER_USER_TITLE" xml:space="preserve">
+    <value>帐户信息
+</value>
+  </data>
+  <data name="SET_PASSWORD_LEN_ERR" xml:space="preserve">
+    <value>密码必须是{0}个字符的长度最小。
+</value>
+  </data>
+</root>

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APP_WELCOME" xml:space="preserve">
+    <value>Καλώς ήρθατε στην GlobalSwapShop.com</value>
+  </data>
+  <data name="CAPTCHA_ERROR" xml:space="preserve">
+    <value>Εισόδου δεν ταιριάζει με την εικόνα. Παρακαλώ δοκιμάστε ξανά.</value>
+  </data>
+  <data name="CAPTCHA_ERROR_SUMMARY" xml:space="preserve">
+    <value>Επικύρωση εισόδου απέτυχε. Παρακαλώ δοκιμάστε ξανά</value>
+  </data>
+  <data name="CAPTCHA_LEN_INSTRUCTIONS" xml:space="preserve">
+    <value>&lt;div&gt;Πληκτρολογήστε το {0} χαρακτήρων κωδικό που βλέπετε στην παρακάτω εικόνα. Κάντε Οι χαρακτήρες δεν είναι ευαίσθητη υπόθεση.&lt;/div&gt;</value>
+  </data>
+  <data name="CAPTCHA_LEN_MESSAGE" xml:space="preserve">
+    <value>Ηεικόνα έχει {0} χαρακτήρες και δεν είναι πεζών-κεφαλαίων.</value>
+  </data>
+  <data name="CREATE_USER_DESCRIPTION" xml:space="preserve">
+    <value>Εγγραφή με GlobalSwapShop.com να απολαύσουν τα οφέλη της παγκόσμιας ανταλλαγής εμπορικών!</value>
+  </data>
+  <data name="CREATE_USER_HDR" xml:space="preserve">
+    <value>Δημιουργία νέου λογαριασμού</value>
+  </data>
+  <data name="PRIVACY_POLICY" xml:space="preserve">
+    <value>&lt;div&gt;
+&lt;-! ΑΠΟΡΡΗΤΟΥ START ΚΩΔΙΚΟΣ ΠΟΛΙΤΙΚΗ -&gt;
+        &lt;div style="font-family:arial"&gt;
+            &lt;strong&gt; Τι πληροφορίες συλλέγουμε; &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Συλλέγουμε πληροφορίες από εσάς κατά την εγγραφή σας στο site μας.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Κατά την παραγγελία ή την εγγραφή στην ιστοσελίδα μας, ανάλογα με την περίπτωση, μπορεί να σας ζητηθεί να
+            εισάγετε σας: το όνομα ή η διεύθυνση ηλεκτρονικού ταχυδρομείου. Μπορείτε, ωστόσο, επισκεφθείτε την ιστοσελίδα μας
+            ανώνυμα. Μπορείτε επίσης να συνδέσετε μέσω Facebook. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Τι χρησιμοποιούμε τις πληροφορίες σας για; &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Οποιαδήποτε από τις πληροφορίες που συλλέγουμε από εσάς μπορεί να χρησιμοποιηθεί σε ένα από τα παρακάτω
+            τρόπους:
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ? Για να προσαρμόσετε την εμπειρία σας &lt;br /&gt;
+            (Τα στοιχεία σας μας βοηθά να ανταποκριθεί καλύτερα στις ιδιαίτερες ανάγκες σας) &lt;br /&gt;
+            &lt;br /&gt;
+            ? Για να βελτιωθεί η ιστοσελίδα μας &lt;br /&gt;
+            (Προσπαθούμε συνεχώς να βελτιώσουν τις προσφορές ιστοσελίδα μας με βάση τις πληροφορίες
+            και την ανατροφοδότηση που λαμβάνουμε από εσάς) &lt;br /&gt;
+            &lt;br /&gt;
+            ? Για να βελτιωθεί η εξυπηρέτηση των πελατών &lt;br /&gt;
+            (Τα στοιχεία σας μας βοηθά να ανταποκριθεί πιο αποτελεσματικά στην εξυπηρέτηση του πελάτη σας
+            αιτήματα και τις ανάγκες υποστήριξης) &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ? Για να στείλετε περιοδικά emails &lt;br /&gt;
+            &lt;br /&gt;
+            Η διεύθυνση ηλεκτρονικού ταχυδρομείου που παρέχετε, μπορεί να χρησιμοποιηθεί για να σας στείλουμε πληροφορίες, να απαντήσει στην
+            έρευνες, και / ή άλλα αιτήματα ή ερωτήματα. &lt;br /&gt;
+            &lt;br /&gt;
+            Σημείωση: Αν οποιαδήποτε στιγμή επιθυμείτε να διαγραφείτε από τη λήψη μελλοντικών μηνυμάτων ηλεκτρονικού ταχυδρομείου,
+            θα περιλαμβάνει λεπτομερείς οδηγίες διαγραφής στο κάτω μέρος της κάθε e-mail. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Πώς προστατεύουμε τις πληροφορίες σας; &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Υλοποιούμε μια σειρά μέτρων ασφαλείας για τη διατήρηση της ασφάλειας των σας
+            προσωπικά στοιχεία όταν κάνετε μια &lt;br /&gt; για
+            &lt;br /&gt;
+            Προσφέρουμε τη χρήση ενός ασφαλούς server. Όλα παρέχονται ευαίσθητα / τα στοιχεία της πιστωτικής
+            μεταδίδεται μέσω Secure Socket Layer (SSL) και στη συνέχεια σε κρυπτογραφημένη
+            Η πληρωμή πύλη βάση δεδομένων μας μόνο τους παρόχους ώστε να είναι προσβάσιμα από εκείνες που εγκρίνονται
+            με ειδικά δικαιώματα πρόσβασης σε τέτοια συστήματα, και που απαιτούνται για; κρατήσει το
+            εμπιστευτικές πληροφορίες. &lt;br /&gt;
+            &lt;br /&gt;
+            Μετά από μια συναλλαγή, ιδιωτικές πληροφορίες σας (πιστωτικές κάρτες, την κοινωνική ασφάλιση
+            αριθμούς, οικονομικά, κ.λπ.) δεν θα αποθηκεύονται στους διακομιστές μας. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Να χρησιμοποιούμε τα cookies; &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Ναι (Τα cookies είναι μικρά αρχεία που η τοποθεσία ή ο πάροχος υπηρεσιών της μεταφοράς να
+            υπολογιστές σας σκληρό δίσκο μέσω του Web browser σας (εάν επιτρέπετε) που επιτρέπει
+            χώρους και τις υπηρεσίες των συστημάτων τους παρόχους να αναγνωρίσουν τον browser σας και να συλλάβει και να
+            θυμόμαστε ορισμένες πληροφορίες &lt;br /&gt;
+            &lt;br /&gt;
+            Χρησιμοποιούμε τα cookies για να κατανοήσουν και να αποθηκεύσετε τις προτιμήσεις σας για μελλοντικές επισκέψεις και
+            συλλέξει δεδομένα σχετικά με την επισκεψιμότητα της ιστοσελίδας και της αλληλεπίδρασης χώρο ώστε να μπορούμε να
+            προσφέρουν καλύτερες εμπειρίες χώρο του ξενοδοχείου και τα εργαλεία στο μέλλον. Εμείς μπορεί να συμβληθεί με
+            τρίτους παροχείς υπηρεσιών για να μας βοηθήσει να καταλάβουμε καλύτερα το site μας
+            επισκέπτες. Οι πάροχοι υπηρεσιών δεν επιτρέπεται να χρησιμοποιούν τις πληροφορίες
+            συλλέγονται για λογαριασμό μας, παρά μόνο για να μας βοηθήσει να διεξάγει και να βελτιώσουν τις δραστηριότητές μας. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Έχουμε αποκαλύψει οποιεσδήποτε πληροφορίες σε εξωτερικά μέρη; &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Δεν πουλάμε, το εμπόριο, ή με άλλο τρόπο μεταφοράς σε εξωτερικά μέρη σας προσωπικά
+            αναγνωρίσιμες πληροφορίες. Αυτό δεν περιλαμβάνει αξιόπιστους τρίτους, οι οποίοι βοηθούν
+            μας σε λειτουργία την ιστοσελίδα μας, διεξάγουν τις δραστηριότητές μας, ή εξυπηρέτηση σας, εφόσον
+            όπως αυτά μέρη συμφωνούν να διατηρήσουν αυτές τις πληροφορίες εμπιστευτικές. Μπορούμε επίσης να
+            δελτίο πληροφοριών σας όταν πιστεύουμε απελευθέρωση είναι κατάλληλη για να συμμορφωθούν με
+            το νόμο, να επιβάλουμε τις πολιτικές site μας, ή να προστατεύσει το δικό μας ή άλλων δικαιωμάτων, της ιδιοκτησίας,
+            ή την ασφάλεια. Ωστόσο, μη αναγνωρίσιμες προσωπικές πληροφορίες επισκέπτης μπορεί να
+            παρέχονται στα άλλα κόμματα για το μάρκετινγκ, τη διαφήμιση, ή άλλες χρήσεις. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; διασυνδέσεις αυτές &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Περιστασιακά, κατά την κρίση μας, μπορεί να περιλαμβάνει ή να προσφέρουν προϊόντα τρίτων ή
+            υπηρεσίες στην ιστοσελίδα μας. Αυτές οι ιστοσελίδες τρίτων που έχουν ξεχωριστή και ανεξάρτητη
+            πολιτική προστασίας προσωπικών δεδομένων. Έχουμε ως εκ τούτου καμία ευθύνη ή υποχρέωση για την
+            το περιεχόμενο και τις δραστηριότητες αυτών των δικτυακών τόπων. Παρ 'όλα αυτά, επιδιώκουμε να προστατεύσουν
+            την ακεραιότητα του site μας και καλωσορίζουμε οποιαδήποτε σχόλια σχετικά με αυτά τα sites. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Καλιφόρνια Ηλεκτρονικό Απόρρητο Protection Act Συμμόρφωσης &lt;/ strong&gt; &lt;br /&gt;
+            &lt;br /&gt;
+            Επειδή έχουμε την προσωπική σας ζωή που έχουμε λάβει τα απαραίτητα μέτρα για να
+            συμμόρφωση με τις Απορρήτου Καλιφόρνια on-line νόμου περί προστασίας του. Ως εκ τούτου, θα
+            δεν διακινούμε προσωπικά σας στοιχεία σε εξωτερικά μέρη, χωρίς να σας
+            συγκατάθεση. &lt;br /&gt;
+            &lt;br /&gt;
+            Στο πλαίσιο της Καλιφόρνια Ηλεκτρονικό Απόρρητο Protection Act, σε όλους τους χρήστες του site μας
+            μπορεί να κάνει οποιεσδήποτε αλλαγές στις πληροφορίες που τους ανά πάσα στιγμή από την καταγραφή τους σε
+            πίνακα ελέγχου και πηγαίνοντας στη σελίδα "Επεξεργασία προφίλ". &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Παιδική Ηλεκτρονικό Απόρρητο Protection Act Συμμόρφωσης &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Είμαστε σε συμμόρφωση με τις απαιτήσεις του COPPA (απορρήτου για παιδιά on-line
+            Protection Act), δεν συλλέγουμε πληροφορίες από άτομα κάτω των 13 ετών
+            ηλικία. Τα ιστοσελίδα, τα προϊόντα μας και τις υπηρεσίες όλων απευθύνονται σε ανθρώπους που βρίσκονται σε
+            τουλάχιστον 13 ετών και άνω. &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Πολιτική για το Ηλεκτρονικό Απόρρητο Μόνο &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Αυτή η σύνδεση της πολιτικής προστασίας της ιδιωτικής ζωής ισχύει μόνο για τις πληροφορίες που συλλέγονται μέσω μας
+            δικτυακό τόπο και όχι για τις πληροφορίες που συλλέγονται εκτός σύνδεσης. &lt;br /&gt;
+            &lt;br /&gt;
+            Όροι και Προϋποθέσεις &lt;strong&gt; &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Παρακαλούμε επίσης να επισκεφθείτε τους Όρους και Προϋποθέσεις ενότητα για την ίδρυση της χρήσης,
+            αποποιήσεις και περιορισμούς ευθύνης που διέπουν τη χρήση της ιστοσελίδας μας σε
+            &lt;a href=""http://www.globalswapshop.com""&gt; http://www.globalswapshop.com &lt;/ a&gt; &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; συγκατάθεσή σας &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Με τη χρήση του site μας, συμφωνείτε να μας
+            &lt;A href = "http://www.freeprivacypolicy.com/"
+                style = "text-decoration: none; color: # 3C3C3C" target = "_blank"&gt; το ηλεκτρονικό απόρρητο
+            Πολιτική &lt;/ a&gt;. &lt;br /&gt;
+            &lt;br /&gt;
+            Αλλαγές &lt;strong&gt; στην Πολιτική Απορρήτου μας &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Εάν αποφασίσουμε να αλλάξουμε την πολιτική απορρήτου μας, θα δημοσιεύσουμε τις αλλαγές σε αυτή τη
+            σελίδα, στείλτε e-mail σας ενημερώνει για τυχόν αλλαγές, και / ή να ενημερώσετε τα Προστασίας Προσωπικών Δεδομένων
+            Πολιτική ημερομηνία τροποποίησης παρακάτω.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt; Επικοινωνία μαζί μας &lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Εάν υπάρχουν οποιεσδήποτε ερωτήσεις σχετικά με αυτή την πολιτική προστασίας της ιδιωτικής ζωής επικοινωνήστε μαζί μας
+            χρησιμοποιώντας τα παρακάτω στοιχεία.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            http://www.globalswapshot.com &lt;br /&gt;
+            contactus@globalswapshop.com &lt;br /&gt;
+            &lt;center&gt;
+                &lt;div style="font-size:7pt; font-family:Arial; color:gray; text-decoration:none;"&gt;
+                    Πολιτική Προστασίας Προσωπικών Δεδομένων Δημιουργήθηκε από &lt;a href = "http://www.freeprivacypolicy.com"
+                        style = "color: # 3C3C3C; text-decoration: none;" target = "_blank"&gt; Ελεύθερος Προστασίας Προσωπικών Δεδομένων
+                    Πολιτική &lt;/ a&gt; &lt;/ p&gt;
+            &lt;/ Center&gt;
+        &lt;/ P&gt;
+        &lt;center&gt;
+            &lt;-! ΤΕΛΟΣ ΚΩΔΙΚΟΣ Privacy Policy -&gt;
+        &lt;/ Center&gt;
+    &lt;/ Div&gt; </value>
+  </data>
+  <data name="REGISTER_USER_TITLE" xml:space="preserve">
+    <value>Πληροφορίες Λογαριασμού</value>
+  </data>
+  <data name="SET_PASSWORD_LEN_ERR" xml:space="preserve">
+    <value>Οι κωδικοί πρόσβασης πρέπει να έχουν συμπληρώσει τουλάχιστον {0} χαρακτήρες.</value>
+  </data>
+  <data name="TERMS_OF_USE" xml:space="preserve">
+    <value />
+  </data>
+</root>

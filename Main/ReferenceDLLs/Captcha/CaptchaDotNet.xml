@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CaptchaDotNet</name>
+    </assembly>
+    <members>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.Message">
+            <summary>
+            Gets or sets the message that is shown in control.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.ImageBackgroundColor">
+            <summary>
+            Gets or sets background color of the image.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.UseAudio">
+            <summary>
+            Gets or sets a value indicating whether user can also listen to the text.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.UseSubmitButton">
+            <summary>
+            Gets or sets value indicating that whether a submit button is shown.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.SubmitButtonText">
+            <summary>
+            Gets or sets the text for submit button.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.Provider">
+            <summary>
+            Gets or sets the ICaptchaProvider that creates CAPTCHA image and 
+            audio file.
+            </summary>
+        </member>
+        <member name="E:DevGhoul.Controls.WebControls.CaptchaDotNet.Success">
+            <summary>
+            Adds or removes the method that is executed when user input is correct.
+            </summary>
+        </member>
+        <member name="E:DevGhoul.Controls.WebControls.CaptchaDotNet.Failure">
+            <summary>
+            Adds or removes the method that is executed when user input is incorrect.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.IsValid">
+            <summary>
+            Checks whether user input is valid or not.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.Characters">
+            <summary>
+            Gets or sets characters that can be used in CAPTCHA text.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.Lenght">
+            <summary>
+            Gets or sets lenght of CAPTCHA image text. Use 0 to make it random.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.CaseSensitive">
+            <summary>
+            Gets or sets a value indicating whether input validation is case-sensitive.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.TimeOut">
+            <summary>
+            Gets or sets the time, in seconds, that generated image is valid for. 0 to make valid forever.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.ImageFormat">
+            <summary>
+            Gets or sets format of the CAPTCHA image.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.SecurityLevel">
+            <summary>
+            Gets or sets security level of the CAPTCHA image.
+            </summary>
+        </member>
+        <member name="P:DevGhoul.Controls.WebControls.CaptchaDotNet.Quality">
+            <summary>
+            Gets or sets quality of the CAPTCHA image when JPEG is used as image format.
+            </summary>
+        </member>
+        <member name="T:CaptchaDotNetObjects.Security.Cryptography.Encryptor">
+            <summary>
+            Provides methods for encrypting and decrypting clear texts.
+            </summary>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.Encryptor.Encrypt(System.String,System.String,System.Byte[])">
+            <summary>
+            Encrypts a clear text using specified password and salt.
+            </summary>
+            <param name="clearText">The text to encrypt.</param>
+            <param name="password">The password to create key for.</param>
+            <param name="salt">The salt to add to encrypted text to make it more secure.</param>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.Encryptor.Decrypt(System.String,System.String,System.Byte[])">
+            <summary>
+            Decrypts an encrypted text using specified password and salt.
+            </summary>
+            <param name="cipherText">The text to decrypt.</param>
+            <param name="password">The password used to encrypt text.</param>
+            <param name="salt">The salt added to encrypted text.</param>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.Encryptor.GenerateRandomSalt(System.Int32)">
+            <summary>
+            Creates a random salt to use in encryption.
+            </summary>
+            <param name="Length">Lenth of random salt.</param>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.RandomText.Generate(System.Char[])">
+            <summary>
+            Generates random lenght random text.
+            </summary>
+            <param name="chars">A char array to use when creating the random text.</param>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.RandomText.Generate(System.Char[],System.Int32)">
+            <summary>
+            Generates random text in specified lenght.
+            </summary>
+            <param name="chars">A char array to use when creating the random text.</param>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.RNG.Next">
+            <summary>
+            Generates a random non-negative number.  
+            </summary>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.RNG.Next(System.Int32)">
+            <summary>
+            Generates a random non-negative number less than or equal to max.
+            </summary>
+            <param name="max">The maximum possible value.</param>
+        </member>
+        <member name="M:CaptchaDotNetObjects.Security.Cryptography.RNG.Next(System.Int32,System.Int32)">
+            <summary>
+            Generates a random non-negative number bigger than or equal to min and less than or
+             equal to max.
+            </summary>
+            <param name="min">The minimum possible value.</param>
+            <param name="max">The maximum possible value.</param>
+        </member>
+        <member name="T:CaptchaDotNetObjects.Resources.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CaptchaDotNetObjects.Resources.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CaptchaDotNetObjects.Resources.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

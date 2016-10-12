@@ -1,0 +1,45 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master.master.vb" Inherits=".Master" %>
+<%@ Register TagPrefix="fvk" TagName="initfvk" Src="~/FVK/InitFVK.ascx" %>
+<%@ Register TagPrefix="my" TagName="controllinks" Src="~/ControlLinks.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="FVK/fvk.css" />
+    <link rel="stylesheet" type="text/css" href="fvk_demo.css" />
+</head>
+<body>
+    <fvk:initfvk ID="initfvk1" runat="server" />
+    <table>
+        <tr>
+            <td style="width:20%"></td>
+            <td>
+                <img src="Images/banner.png" alt="" />
+                <form id="form1" runat="server">
+                 <asp:ScriptManager ID="ScriptManager1" runat="server">
+                 </asp:ScriptManager>
+                 
+                <table >
+                    <tr>
+                        <td valign="top" style="width:155px">
+                            <my:controllinks id="link1" runat="server" />
+                        </td>
+                        <td valign="top" style="width:840px">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+                
+                
+                </form>
+            </td>
+            <td style="width:20%"></td>
+        </tr>
+    </table>
+</body>
+</html>

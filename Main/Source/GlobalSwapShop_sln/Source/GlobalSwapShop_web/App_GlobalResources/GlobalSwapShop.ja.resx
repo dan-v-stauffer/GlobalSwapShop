@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APP_WELCOME" xml:space="preserve">
+    <value>GlobalSwapShop.comへようこそ</value>
+  </data>
+  <data name="CAPTCHA_ERROR" xml:space="preserve">
+    <value>エントリーは画像と一致していません。もう一度やり直してください。</value>
+  </data>
+  <data name="CAPTCHA_ERROR_SUMMARY" xml:space="preserve">
+    <value>エントリの検証に失敗しました。もう一度やり直してください。</value>
+  </data>
+  <data name="CAPTCHA_LEN_INSTRUCTIONS" xml:space="preserve">
+    <value>&lt;DIV&gt;下の画像に表示されている{0}文字のコードを入力してください。 &lt;BR&gt;文字は大文字と小文字が区別されません。&lt;/ DIV&gt;</value>
+  </data>
+  <data name="CAPTCHA_LEN_MESSAGE" xml:space="preserve">
+    <value>画像は、{0}文字があり、大文字と小文字は区別されません。</value>
+  </data>
+  <data name="CREATE_USER_DESCRIPTION" xml:space="preserve">
+    <value>世界的なバーター取引のメリットを享受するGlobalSwapShop.comに登録！</value>
+  </data>
+  <data name="CREATE_USER_HDR" xml:space="preserve">
+    <value>新しいアカウントを作成する</value>
+  </data>
+  <data name="PRIVACY_POLICY" xml:space="preserve">
+    <value>&lt;DIV&gt;
+&lt;！ - STARTプライバシーポリシーCODE - &gt;
+        &lt;div style=""font-family:arial""&gt;
+            ある[&lt;strong&gt;どのような情報は集めでしょうか？&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            あなたが私たちのサイトに登録するとき私達はあなたからの情報を収集する。
+            &lt;br /&gt;
+            &lt;br /&gt;
+            発注または当サイトに登録するときに、必要に応じて、あなたがするよう求められる場合があります
+            名前または電子メールアドレス：あなたのを入力してください。ただし、私たちのサイトを訪問するかもしれない
+            匿名で。またFacebookから接続することができます。/&gt; &lt;br
+            &lt;br /&gt;
+            ある[&lt;strong&gt;私たちは何のためにあなたの情報を使っていますか？&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            私達があなたから収集した情報のいずれかが、次のいずれかで利用することが
+            方法：
+            &lt;br /&gt;
+            &lt;br /&gt;
+            、あなたの経験の&lt;br /&gt;をパーソナライズするため
+            （あなたの情報がより個々のニーズに応えるために私たちを助ける）&lt;br /&gt;
+            &lt;br /&gt;
+            、当社のウェブサイトの&lt;br /&gt;を改善するために
+            （我々は継続的な情報に基づき当社のウェブサイトの提供の向上に努め
+            我々はあなたから受信し、フィードバック）&lt;br /&gt;
+            &lt;br /&gt;
+            ; /&gt; &lt;br顧客サービスを向上させるために
+            （あなたの情報は、私たちはより効果的に顧客サービスに対応するのに役立ちます
+            リクエストと支援の必要性）&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; /&gt;定期的なメールが&lt;br送信するには
+            &lt;br /&gt;
+            あなたが提供するメールアドレスはあなたに情報を送信するために使用される、に対応
+            お問い合わせ、および/または他の要求または質問。&lt;br /&gt;
+            &lt;br /&gt;
+            注：いつでも、将来の電子メールの受信からの退会を希望される場合は、
+            我々は各メールの下部にある詳細な配信解除の操作が含まれています。/&gt; &lt;br
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ある[&lt;strong&gt;どのように我々はあなたの情報を保護するのですか？&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            私達はあなたの安全を維持するためにセキュリティ対策のさまざまな実装
+            ご注文の&lt;brを置く個人情報/&gt;
+            &lt;br /&gt;
+            我々は、セキュアサーバーの使用を提供。すべて付属の機密/信用情報
+            SSL（Secure Socket Layer）技術を経由して暗号化されたに送信されます
+            私たちの支払いゲートウェイプロバイダのデータベースでのみ許可されたものからもアクセス可能にする
+            このようなシステムへの特殊なアクセス権を持つ、とする必要があります？保つ
+            情報機密。&lt;br /&gt;
+            &lt;br /&gt;
+            トランザクションの後、あなたの個人情報（クレジットカード、社会保障
+            数字、財務、など）当社のサーバー上に格納されません。&lt;br /&gt;
+            &lt;br /&gt;
+            ある[&lt;strong&gt;我々は、クッキーを使用していますか？&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            はい（クッキーとは、そのサイトまたはそのサービスプロバイダの転送は小さなファイルです。
+            Webブラウザを使ってあなたのコンピュータのハードディスクドライブ（あなたが許可されている場合）が可能
+            ブラウザとキャプチャを認識するサイトまたはサービスプロバイダのシステムと
+            特定の情報の&lt;br /&gt;を覚えている
+            &lt;br /&gt;
+            我々は将来の訪問のためにあなたの好みを理解し、保存するためにクッキーを使用して、
+            我々はできるように、サイトのトラフィックとサイトの相互作用についての集計データをコンパイル
+            今後のよりよいサイト体験とツールを提供しています。我々は契約を結ぶことができる
+            より良い私たちのサイトを理解する上で私たちを支援するために、サードパーティのサービスプロバイダ
+            訪問者。これらのサービスプロバイダーは、情報を使用することは許可されていません
+            私たちが実施し、事業を改善するための場合を除き、当社に代わって収集した。&lt;br /&gt;
+            &lt;br /&gt;
+            ある[&lt;strong&gt;我々は、第三者に情報を開示するか？&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            我々は、貿易を売ったりして、個人的に外部に転送されません
+            を特定できる情報。これは、アシスト信頼できる第三者機関が含まれていません
+            長い間、私たちのウェブサイトを運営事業を行う、または保守を行うに私達、
+            これらの当事者は、この情報の機密性を保持することに同意するとして。我々はまた、可能性があります
+            我々はリリースが準拠する適切であると考える場合、情報を離します
+            法律、当サイトのポリシーを強制する、または私達のものを保護したり他者の権利、財産、
+            または安全性。しかし、個人を特定できないビジター情報があります
+            マーケティング、広告、または他の用途のために他の者に提供。&lt;br /&gt;は
+            &lt;br /&gt;
+            ある[&lt;strong&gt;サードパーティのリンク&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            時折、私たちの裁量により、我々はサードパーティの製品またはを含めるまたは提供する場合があります
+            私たちのウェブサイト上のサービス。これらの第三者のサイトは別々の独立した持っている
+            プライバシーポリシー。したがってに対しても、いかなる義務や責任を持っていない
+            これらのリンクサイトの内容と活動。それにもかかわらず、我々は保護するためにシーク
+            当サイトの整合性は、これらのサイトについてのフィードバックを歓迎します。&lt;br /&gt;
+            &lt;br /&gt;
+            ある[&lt;strong&gt;カリフォルニア州オンラインプライバシー保護法の遵守&lt;/強い&gt; &lt;br /&gt;
+            &lt;br /&gt;
+            我々はあなたのプライバシーを尊重するので私達はであることが必要な予防措置を講じている
+            カリフォルニア州オンラインプライバシー保護法に準拠。したがってなります
+            お使いすることなく外部の第三者に個人情報を配布しない
+            同意。&lt;br /&gt;
+            &lt;br /&gt;
+            カリフォルニア州オンラインプライバシー保護法、当サイトのすべてのユーザーの一部として
+            彼らにログインすることにより、いつでもその情報に何らかの変更を加えることがあります
+            コントロールパネルと"プロファイルの編集"ページに行く。&lt;br /&gt;
+            &lt;br /&gt;
+            ある[&lt;strong&gt;子供オンラインプライバシー保護法の遵守&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            我々は、COPPA（子供のオンラインプライバシーの要件に準拠しています
+            保護法）、我々は13年の下で誰からどんな情報を収集することはありません
+            年齢。弊社のウェブサイト、製品およびサービスはすべてにある人々に向けられている
+            少なくとも13歳以上。&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;オンラインプライバシーポリシーのみ&lt;/ strong&gt;]を
+            &lt;br /&gt;
+            &lt;br /&gt;
+            このオンラインプライバシーポリシーは、当社で収集された情報に適用されます。
+            オフラインで収集された情報へのウェブサイトとではない。/&gt; &lt;br
+            &lt;br /&gt;
+            の&lt;strong&gt;利用規約&lt;/ strong&gt;]を
+            &lt;br /&gt;
+            &lt;br /&gt;
+            、使用を確立するセクションGoogleの利用規約もご覧ください
+            当社のウェブサイトの利用を支配する免責、および責任の制限
+            &lt;a href=""http://www.globalswapshop.com""&gt; http://www.globalswapshop.com &lt;/ A&gt; &lt;br /&gt;
+            &lt;br /&gt;
+            ある[&lt;strong&gt;ご同意&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            当サイトを使用することで、私たちのことに同意
+            の&lt;a href =""http://www.freeprivacypolicy.com/""
+                スタイル=""テキスト装飾：なし;色：＃3C3C3C、""ターゲットは=""_blank""&gt;オンラインプライバシー
+            ポリシー&lt;/ a&gt;。&lt;br /&gt;
+            &lt;br /&gt;
+            の&lt;strong&gt;私たちのプライバシーポリシーの変更&lt;/強い&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            当社がプライバシーポリシーの変更を決定した場合、我々はこれにその変更を掲示します
+            ページは、すべての変更をお知らせするメールを送信し、及び/またはプライバシーを更新
+            以下のポリシーの変更日。
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Googleに問い合わせる&lt;strong&gt;追加&lt;/ strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            このプライバシーポリシーに関するご質問がある場合はご連絡ください
+            下記の情報を使用して。
+            &lt;br /&gt;
+            &lt;br /&gt;
+            http://www.globalswapshot.com &lt;br /&gt;
+            contactus@globalswapshop.com &lt;br /&gt;
+            &lt;center&gt;現在
+                &lt;div style="font-size:7pt; font-family:Arial; color:gray; text-decoration:none;"&gt;
+                    Privacy Policy Created by &lt;a href="http://www.freeprivacypolicy.com" 
+                        style="color:#3C3C3C; text-decoration:none;" target="_blank"&gt;自由プライバシー
+                    ポリシー&lt;/ a&gt; &lt;/ DIV&gt;
+            &lt;/センター&gt;
+        &lt;/ DIV&gt;
+        &lt;center&gt;現在
+            &lt;！ - ENDプライバシーポリシーCODE - &gt;
+        &lt;/センター&gt;
+    &lt;/ DIV&gt;
+</value>
+  </data>
+  <data name="REGISTER_USER_TITLE" xml:space="preserve">
+    <value>アカウント情報</value>
+  </data>
+  <data name="SET_PASSWORD_LEN_ERR" xml:space="preserve">
+    <value>パスワードは{0}文字の長さの最小値であることが要求されます。</value>
+  </data>
+  <data name="TERMS_OF_USE" xml:space="preserve">
+    <value />
+  </data>
+</root>

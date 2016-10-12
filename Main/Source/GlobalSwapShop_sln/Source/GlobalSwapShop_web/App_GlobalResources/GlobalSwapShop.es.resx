@@ -1,0 +1,1855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APP_WELCOME" xml:space="preserve">
+    <value>Bienvenido a la GlobalSwapShop.com</value>
+  </data>
+  <data name="CAPTCHA_ERROR" xml:space="preserve">
+    <value>Entrada no coincide con la imagen. Por favor, inténtalo de nuevo.</value>
+  </data>
+  <data name="CAPTCHA_ERROR_SUMMARY" xml:space="preserve">
+    <value>Validación de una entrada fallida. Por favor, inténtalo de nuevo.</value>
+  </data>
+  <data name="CAPTCHA_LEN_INSTRUCTIONS" xml:space="preserve">
+    <value>&lt;div&gt;Introduzca el {0} caracteres código que aparece en la imagen de abajo. &lt;br&gt; Los caracteres no distinguen entre mayúsculas y minúsculas.&lt;/div&gt;</value>
+  </data>
+  <data name="CONNECT_WITH_FACEBOOK" xml:space="preserve">
+    <value>Conéctate con Facebook</value>
+  </data>
+  <data name="CREATE_USER_DESCRIPTION" xml:space="preserve">
+    <value>íRegister con GlobalSwapShop.com para disfrutar de los beneficios del comercio de trueque en todo el mundo!</value>
+  </data>
+  <data name="CREATE_USER_HDR" xml:space="preserve">
+    <value>Crear una Nueva Cuenta</value>
+  </data>
+  <data name="INVITATION_ACCEPT" xml:space="preserve">
+    <value>Welcome to Global Swap Shop</value>
+  </data>
+  <data name="INVITE_FRIENDS_CONTENT" xml:space="preserve">
+    <value>Come join us at the Global Swap Shop</value>
+  </data>
+  <data name="INVITE_FRIENDS_MAIN_TITLE" xml:space="preserve">
+    <value>Global Swap Shop Invitación</value>
+  </data>
+  <data name="PRIVACY_POLICY" xml:space="preserve">
+    <value>&lt;div&gt;
+    
+&lt;!-- START PRIVACY POLICY CODE --&gt;
+        &lt;div style="font-family:arial"&gt;
+            &lt;strong&gt;¿Qué información se recopila?&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Nosotros recopilamos información de usted cuando se registra en nuestro sitio.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Al hacer el pedido o se registra en nuestro sitio, en su caso, se le puede pedir que introduzca su nombre o dirección de correo electrónico. Usted puede, sin embargo, visitar nuestro sitio de forma anónima. También puede conectarse a través de Facebook. Si se conecta a través de Facebook que no guardamos ninguna de la información que proporcionó a Facebook.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;¿Para qué utilizamos su información?&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+           Toda la información que obtenemos de usted puede ser utilizada en una de las siguientes maneras:
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; Para personalizar su experiencia&lt;br /&gt;
+            (su información nos ayuda a responder mejor a sus necesidades individuales)&lt;br /&gt;
+            &lt;br /&gt;
+            ; Para mejorar nuestro sitio web&lt;br /&gt;
+            (nos esforzamos continuamente para mejorar nuestras ofertas de sitio web basado en la información y la retroalimentación que recibimos de usted)&lt;br /&gt;
+            &lt;br /&gt;
+            ; Para mejorar el servicio al cliente&lt;br /&gt;
+            (su información nos ayuda a responder más eficazmente a sus solicitudes de servicio al cliente y las necesidades de apoyo)&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; Para enviar correos electrónicos periódicos&lt;br /&gt;
+            &lt;br /&gt;
+            La dirección de correo electrónico que usted proporcione puede ser utilizada para enviar información, responder a las preguntas, y / o otras peticiones o preguntas.&lt;br /&gt;
+            &lt;br /&gt;
+            Nota: Si en algún momento desea dejar de recibir futuros correos electrónicos, que incluyen instrucciones detalladas darse de baja en la parte inferior de cada correo electrónico.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;¿Cómo protegemos su información?&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Ponemos en práctica una serie de medidas de seguridad para mantener la seguridad de su información personal cuando usted realiza un pedido&lt;br /&gt;
+            &lt;br /&gt;
+            Usamos PayPal como nuestra pasarela de pago. PayPal no comparte con nosotros alguna de su tarjeta de crédito o información bancaria.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Cómo usamos los cookies?&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Sí (Las cookies son pequeños archivos que un sitio o de su proveedor de servicios transfiere al disco duro del ordenador mediante el navegador Web (si lo permiten) que permite a los sitios o sistemas de proveedores de servicios para reconocer su navegador y captura y recuerde cierta información&lt;br /&gt;
+            &lt;br /&gt;
+            Utilizamos cookies para entender y guardar sus preferencias para futuras visitas y recopilar datos adicionales sobre el tráfico y la interacción del sitio para que podamos ofrecer mejores experiencias de sitios y herramientas en el futuro. Podemos contratar a los proveedores de servicios de terceros para que nos ayuden a comprender mejor a nuestros visitantes del sitio. Estos proveedores de servicios no están autorizados a utilizar la información recopilada en nuestro nombre, salvo que nos ayuden a realizar y mejorar nuestro negocio.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;¿Tenemos revelar cualquier información a terceros?&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+           Nosotros no vendemos, el comercio, o transferir a terceros sus datos personales. Esto no incluye los terceros de confianza que nos asisten en la operación de nuestro sitio web, la realización de nuestro negocio o servicio que usted, siempre y cuando las partes se comprometen a mantener esta información confidencial. También podemos revelar su información cuando creemos que es apropiado para cumplir con la ley, hacer cumplir las políticas de nuestro sitio, o para proteger la nuestra o de otros derechos, propiedad o seguridad. Sin embargo, no personal identificable de visitantes puede ser proporcionada a terceros para la comercialización, publicidad, u otros usos.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Enlaces de terceros&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            De vez en cuando, a nuestra discreción, podemos incluir u ofrecer productos o servicios de terceros en nuestro sitio web. Estos sitios de terceros tienen políticas de privacidad separada e independiente. Por lo tanto, no tienen responsabilidad alguna por los contenidos y actividades de estos sitios enlazados. Sin embargo, buscamos proteger la integridad de nuestro sitio y agradecemos cualquier comentario sobre estos sitios.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;California Online Privacy Protection Act Cumplimiento&lt;/strong&gt;&lt;br /&gt;
+            &lt;br /&gt;
+            Porque valoramos su privacidad, hemos tomado las precauciones necesarias para estar en conformidad con la Ley de Protección de la Privacidad en Línea de California. Por lo tanto, no va a distribuir su información personal a terceros sin su consentimiento.&lt;br /&gt;
+            &lt;br /&gt;
+            Como parte de la Línea de California Privacy Protection Act, todos los usuarios de nuestro sitio puede realizar ningún cambio en su información en cualquier momento ingresando a su panel de control y de ir a la página "Editar Perfil".&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Los niños en línea Protección de la Privacidad Ley de Cumplimiento&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Estamos en el cumplimiento de los requisitos de COPPA (Children Online Privacy Protection Act), no recoge ninguna información de personas menores de 13 años de edad. Nuestro sitio web, productos y servicios están dirigidos a personas mayores de 13 años de edad o más.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Política de privacidad en línea sólo&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Esta política de privacidad en línea sólo se aplica a la información recogida a través de nuestra página web y no a la información recopilada en línea.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Terms and Conditions&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Visite también nuestra sección de Términos y Condiciones establece el uso, renuncias y limitaciones de responsabilidad que rigen el uso de nuestro sitio web en
+            &lt;a href="http://www.globalswapshop.com"&gt;http://www.globalswapshop.com&lt;/a&gt;&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;su consentimiento&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Al utilizar nuestro sitio, usted acepta nuestra política de privacidad en línea.&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Cambios en nuestra Política de Privacidad&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+           Si decidimos cambiar nuestra política de privacidad, pondremos esos cambios en esta página, envíe un correo electrónico informándole de cualquier cambio y / o actualización de la Política de privacidad fecha de modificación a continuación.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Envíenos un mensaje&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Si tiene alguna pregunta respecto a esta política de privacidad, puede contactar con nosotros mediante la siguiente información.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            http://www.globalswapshot.com&lt;br /&gt;
+            contactus@globalswapshop.com&lt;br /&gt;
+            
+        &lt;/div&gt;
+        &lt;center&gt;
+            &lt;!-- END PRIVACY POLICY CODE --&gt;
+        &lt;/center&gt;
+    
+    &lt;/div&gt;</value>
+  </data>
+  <data name="REGISTER_USER_TITLE" xml:space="preserve">
+    <value>Información de cuenta</value>
+  </data>
+  <data name="SET_PASSWORD_LEN_ERR" xml:space="preserve">
+    <value>Las contraseñas deben tener un mínimo de {0} caracteres de longitud.</value>
+  </data>
+  <data name="TERMS_OF_USE" xml:space="preserve">
+    <value>&lt;html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40"&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv=Content-Type content="text/html; charset=windows-1252"&gt;
+&lt;meta name=ProgId content=Word.Document&gt;
+&lt;meta name=Generator content="Microsoft Word 14"&gt;
+&lt;meta name=Originator content="Microsoft Word 14"&gt;
+&lt;link rel=File-List href="TermsOfUse_files/filelist.xml"&gt;
+&lt;link rel=Edit-Time-Data href="TermsOfUse_files/editdata.mso"&gt;
+&lt;!--[if !mso]&gt;
+&lt;style&gt;
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+&lt;/style&gt;
+&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:DocumentProperties&gt;
+  &lt;o:Author&gt;Mark&lt;/o:Author&gt;
+  &lt;o:Template&gt;Normal&lt;/o:Template&gt;
+  &lt;o:LastAuthor&gt;Mark&lt;/o:LastAuthor&gt;
+  &lt;o:Revision&gt;3&lt;/o:Revision&gt;
+  &lt;o:TotalTime&gt;90&lt;/o:TotalTime&gt;
+  &lt;o:Created&gt;2011-06-30T04:33:00Z&lt;/o:Created&gt;
+  &lt;o:LastSaved&gt;2011-06-30T04:45:00Z&lt;/o:LastSaved&gt;
+  &lt;o:Pages&gt;4&lt;/o:Pages&gt;
+  &lt;o:Words&gt;3489&lt;/o:Words&gt;
+  &lt;o:Characters&gt;19890&lt;/o:Characters&gt;
+  &lt;o:Lines&gt;165&lt;/o:Lines&gt;
+  &lt;o:Paragraphs&gt;46&lt;/o:Paragraphs&gt;
+  &lt;o:CharactersWithSpaces&gt;23333&lt;/o:CharactersWithSpaces&gt;
+  &lt;o:Version&gt;14.00&lt;/o:Version&gt;
+ &lt;/o:DocumentProperties&gt;
+ &lt;o:OfficeDocumentSettings&gt;
+  &lt;o:AllowPNG/&gt;
+ &lt;/o:OfficeDocumentSettings&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;link rel=themeData href="TermsOfUse_files/themedata.thmx"&gt;
+&lt;link rel=colorSchemeMapping href="TermsOfUse_files/colorschememapping.xml"&gt;
+&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:WordDocument&gt;
+  &lt;w:SpellingState&gt;Clean&lt;/w:SpellingState&gt;
+  &lt;w:GrammarState&gt;Clean&lt;/w:GrammarState&gt;
+  &lt;w:TrackMoves&gt;false&lt;/w:TrackMoves&gt;
+  &lt;w:TrackFormatting/&gt;
+  &lt;w:PunctuationKerning/&gt;
+  &lt;w:ValidateAgainstSchemas/&gt;
+  &lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
+  &lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
+  &lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
+  &lt;w:DoNotPromoteQF/&gt;
+  &lt;w:LidThemeOther&gt;EN-US&lt;/w:LidThemeOther&gt;
+  &lt;w:LidThemeAsian&gt;X-NONE&lt;/w:LidThemeAsian&gt;
+  &lt;w:LidThemeComplexScript&gt;X-NONE&lt;/w:LidThemeComplexScript&gt;
+  &lt;w:Compatibility&gt;
+   &lt;w:BreakWrappedTables/&gt;
+   &lt;w:SnapToGridInCell/&gt;
+   &lt;w:WrapTextWithPunct/&gt;
+   &lt;w:UseAsianBreakRules/&gt;
+   &lt;w:DontGrowAutofit/&gt;
+   &lt;w:SplitPgBreakAndParaMark/&gt;
+   &lt;w:EnableOpenTypeKerning/&gt;
+   &lt;w:DontFlipMirrorIndents/&gt;
+   &lt;w:OverrideTableStyleHps/&gt;
+  &lt;/w:Compatibility&gt;
+  &lt;m:mathPr&gt;
+   &lt;m:mathFont m:val="Cambria Math"/&gt;
+   &lt;m:brkBin m:val="before"/&gt;
+   &lt;m:brkBinSub m:val="&amp;#45;-"/&gt;
+   &lt;m:smallFrac m:val="off"/&gt;
+   &lt;m:dispDef/&gt;
+   &lt;m:lMargin m:val="0"/&gt;
+   &lt;m:rMargin m:val="0"/&gt;
+   &lt;m:defJc m:val="centerGroup"/&gt;
+   &lt;m:wrapIndent m:val="1440"/&gt;
+   &lt;m:intLim m:val="subSup"/&gt;
+   &lt;m:naryLim m:val="undOvr"/&gt;
+  &lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267"&gt;
+  &lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/&gt;
+  &lt;w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/&gt;
+  &lt;w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/&gt;
+  &lt;w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/&gt;
+  &lt;w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/&gt;
+  &lt;w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/&gt;
+  &lt;w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="37" Name="Bibliography"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/&gt;
+ &lt;/w:LatentStyles&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;style&gt;
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:666598103;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1393789460 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:1.25in;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:2.75in;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.25in;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:4.25in;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:1538198005;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1755104948 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:1.25in;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:2.75in;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.25in;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:4.25in;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--&gt;
+&lt;/style&gt;
+&lt;!--[if gte mso 10]&gt;
+&lt;style&gt;
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+&lt;/style&gt;
+&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:shapedefaults v:ext="edit" spidmax="1032"/&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;o:shapelayout v:ext="edit"&gt;
+  &lt;o:idmap v:ext="edit" data="1"/&gt;
+ &lt;/o:shapelayout&gt;&lt;/xml&gt;&lt;![endif]--&gt;
+&lt;/head&gt;
+
+&lt;body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'&gt;
+
+&lt;div class=WordSection1&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;i&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Lo siguiente establece los términos y condiciones en que 'The Global Swap Shop' ofrece que acceso a los servicios que están disponibles en el dominio y subdominios de &lt;u&gt;&lt;span
+style='color:#666666'&gt;&lt;a href="http://www.global%20swapshop.com"&gt;www.globalswapshop.com&lt;/a&gt;&lt;/span&gt;&lt;/u&gt;
+(el "sitio"). Por favor lea estos términos y condiciones. Su uso del sitio constituye su acuerdo a todos los términos y condiciones contenidas en este documento, como enmendado o modificado (el "acuerdo de usuario"). 
+Si no está de acuerdo con cualquiera de los términos y condiciones, no acceda al sitio ni utilizar nuestros servicios.&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Debe leer, de acuerdo con y aceptar todos los términos y condiciones 
+contenidas en este documento, ya sea directamente o por referencia, utilizar el sitio. 
+Este acuerdo de usuario puede modificar o modificada en cualquier momento sin previo 
+aviso mediante la publicación de los nuevos términos y condiciones en el sitio. A menos 
+que se indique expresamente lo contrario, todas las enmiendas y modificaciones surtirán 
+efecto inmediatamente en el momento de su registro. Este acuerdo de usuario no puede ser 
+modificado o modificado sin el consentimiento por escrito de firmado lo contrario &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; y el usuario. 
+Los términos y condiciones de nuestra política de privacidad se incorporan en el presente acuerdo de usuario por referencia. Este acuerdo de usuario es eficaz con respeto a cualquier usuario del sitio cuando el usuario se registra en el sitio y inicie sesión.
+El término &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; incorpora en su totalidad del grupo empresarial que posee y opera el sitio, incluyendo todas las subsidiarias, afiliados y agentes. Términos en mayúsculas no definidos en el presente acuerdo de usuario tienen el mismo significado como tales términos tienen en el sitio. A menos que se indique expresamente lo contrario, se considerará que el término "elemento" se refieren a bienes o servicios.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Elegibilidad&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Sólo personas que pueden formar contratos vinculantes legalmente por la ley aplicable son elegibles para utilizar nuestros servicios. Sin limitación, nuestros servicios no están disponibles para los niños menores de 18 años a menos que utilizan nuestros servicios junto con y bajo la supervisión de un padre o tutor, y en ningún caso pueden niños menores de 13 utilizar nuestros servicios. Nuestros servicios no están disponibles para los usuarios que han sido suspendidos temporalmente o permanentemente desde el sitio. Si se registra como un negocio, usted está aceptando que tiene la autoridad legal para obligar a que los negocios en relación con su uso de nuestros servicios y este acuerdo de usuario.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Registro Para Uso Propio&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:
+12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Deben registrar usuarios individuales en sus propios nombres. Se prohíbe expresamente para que un usuario registrar en otro nombre, real o ficticia. Así que a registro constituye fraude y puede estar sujeto a enjuiciamiento penal.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;The Global Swap Shop Facilita el Comercio&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;'The Global Swap Shop'&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt; es una plataforma basadas en Internet que admite dos partido de comercio. 
+&lt;b&gt;The Global Swap Shop&lt;/b&gt; no es parte en un comercio. No somos un socio comercial. Por lo tanto, no somos responsables 
+y no tienen control sobre la exactitud de la información proporcionada en relación con el registro de cualquier elemento, 
+la calidad o la condición, la seguridad o la legalidad de cualquier elemento que cotiza, o de la capacidad de cualquier 
+usuario para asumir un compromiso al comercio. No podemos y no revisará cada elemento que es publicado en el sitio. 
+El usuario acepta eximir a &lt;b&gt;The Global Swap Shop&lt;/b&gt; por cualquier violación de leyes o reglamentos que surge 
+de su contabilización de un elemento o su comercio de un elemento si y en la medida en que ello resulta en 
+responsabilidad civil o Penal. No lo hacen y no puede garantizar la realización de un comercio, 
+incluida la entrega real de los elementos que se van a intercambiar. 
+Además, en caso de una disputa entre los usuarios, los usuarios acepta liberar &lt;b&gt;The Global Swap Shop&lt;/b&gt;, 
+sus directores, oficiales, empleados y agentes, de cualquier reclamo, demanda y daños que puedan surgir, 
+directamente o indirectamente, de esas controversias. Nos no transfiere la propiedad legal de los 
+elementos de un usuario a otro, y de ninguna manera este acuerdo de usuario modificar las leyes y 
+reglamentos que rigen a la transferencia de la propiedad legal de un elemento por su entrega física o de 
+lo contrario, incluso, sin limitación, las leyes y reglamentos que rigen la transferencia del título de propiedad real.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Reglas de Conducta&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Un usuario del sitio queda está de acuerdo con las siguientes reglas de conducta:&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-indent:-.25in;line-height:19.2pt;background:white'&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;span
+style='mso-element:field-begin;mso-field-lock:yes'&gt;&lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;SHAPE &lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;\* MERGEFORMAT &lt;span style='mso-element:field-separator'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:rect
+ id="Rectangle_x0020_47" o:spid="_x0000_s1031" alt="Description: *" style='width:8.25pt;
+ height:8.25pt;visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
+ mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+AAAAAA==
+" filled="f" stroked="f"&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+ &lt;w:wrap type="none"/&gt;
+ &lt;w:anchorlock/&gt;
+&lt;/v:rect&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f"&gt;
+ &lt;v:stroke joinstyle="miter"/&gt;
+ &lt;v:formulas&gt;
+  &lt;v:f eqn="if lineDrawn pixelLineWidth 0"/&gt;
+  &lt;v:f eqn="sum @0 1 0"/&gt;
+  &lt;v:f eqn="sum 0 0 @1"/&gt;
+  &lt;v:f eqn="prod @2 1 2"/&gt;
+  &lt;v:f eqn="prod @3 21600 pixelWidth"/&gt;
+  &lt;v:f eqn="prod @3 21600 pixelHeight"/&gt;
+  &lt;v:f eqn="sum @0 0 1"/&gt;
+  &lt;v:f eqn="prod @6 1 2"/&gt;
+  &lt;v:f eqn="prod @7 21600 pixelWidth"/&gt;
+  &lt;v:f eqn="sum @8 21600 0"/&gt;
+  &lt;v:f eqn="prod @7 21600 pixelHeight"/&gt;
+  &lt;v:f eqn="sum @10 21600 0"/&gt;
+ &lt;/v:formulas&gt;
+ &lt;v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+&lt;/v:shapetype&gt;&lt;![endif]--&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;v:shape
+ id="_x0000_i1030" type="#_x0000_t75" style='width:8.25pt;height:8.25pt'&gt;
+ &lt;v:imagedata croptop="-65520f" cropbottom="65520f"/&gt;
+&lt;/v:shape&gt;&lt;span style='mso-element:field-end'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;span
+style='font-size:7.0pt;font-family:Symbol;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#666666'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no publicaremos artículos de contenido o comercio que son ilegales o no prohibido por este acuerdo de usuario o por reglamentos y leyes aplicables. Un usuario no publicaremos contenido en el sitio que viole los derechos de terceros. Un usuario sólo publicaremos artículos en el sitio que puede comerciar legalmente. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-indent:-.25in;line-height:19.2pt;background:white'&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;span
+style='mso-element:field-begin;mso-field-lock:yes'&gt;&lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;SHAPE &lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;\* MERGEFORMAT &lt;span style='mso-element:field-separator'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:rect
+ id="Rectangle_x0020_46" o:spid="_x0000_s1030" alt="Description: *" style='width:8.25pt;
+ height:8.25pt;visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
+ mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="UEsDBBQABgAIAAAAIQC2gziS/gAAAOEBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRQU7DMBBF
+90jcwfIWJU67QAgl6YK0S0CoHGBkTxKLZGx5TGhvj5O2G0SRWNoz/78nu9wcxkFMGNg6quQqL6RA
+0s5Y6ir5vt9lD1JwBDIwOMJKHpHlpr69KfdHjyxSmriSfYz+USnWPY7AufNIadK6MEJMx9ApD/oD
+OlTrorhX2lFEilmcO2RdNtjC5xDF9pCuTyYBB5bi6bQ4syoJ3g9WQ0ymaiLzg5KdCXlKLjvcW893
+SUOqXwnz5DrgnHtJTxOsQfEKIT7DmDSUCaxw7Rqn8787ZsmRM9e2VmPeBN4uqYvTtW7jvijg9N/y
+JsXecLq0q+WD6m8AAAD//wMAUEsDBBQABgAIAAAAIQA4/SH/1gAAAJQBAAALAAAAX3JlbHMvLnJl
+bHOkkMFqwzAMhu+DvYPRfXGawxijTi+j0GvpHsDYimMaW0Yy2fr2M4PBMnrbUb/Q94l/f/hMi1qR
+JVI2sOt6UJgd+ZiDgffL8ekFlFSbvV0oo4EbChzGx4f9GRdb25HMsYhqlCwG5lrLq9biZkxWOiqY
+22YiTra2kYMu1l1tQD30/bPm3wwYN0x18gb45AdQl1tp5j/sFB2T0FQ7R0nTNEV3j6o9feQzro1i
+OWA14Fm+Q8a1a8+Bvu/d/dMb2JY5uiPbhG/ktn4cqGU/er3pcvwCAAD//wMAUEsDBBQABgAIAAAA
+IQAAVMINuwIAAMMFAAAOAAAAZHJzL2Uyb0RvYy54bWysVNuO0zAQfUfiHyw/ImWTFPeSaNPVbtMg
+pAVWLHyAmziNhWMH221aEP/O2Gm77e4LAvIQ2TP2mZkzx3N9s2sF2jJtuJIZjq8ijJgsVcXlOsNf
+vxTBDCNjqayoUJJleM8Mvpm/fnXddykbqUaJimkEINKkfZfhxtouDUNTNqyl5kp1TIKzVrqlFrZ6
+HVaa9oDeinAURZOwV7rqtCqZMWDNByeee/y6ZqX9VNeGWSQyDLlZ/9f+v3L/cH5N07WmXcPLQxr0
+L7JoKZcQ9ASVU0vRRvMXUC0vtTKqtlelakNV17xkvgaoJo6eVfPY0I75WoAc051oMv8Ptvy4fdCI
+VxkmE4wkbaFHn4E1KteCIWermCmBsDeOqr4zKdx47B60K9Z096r8ZpBUiwYusFvTwVWQASAdTVqr
+vmG0gpxjBxFeYLiNATS06j+oCmLTjVWeyF2tWxcDKEI736/9qV9sZ1EJxjgi0+kYoxJch7WLQNPj
+5U4b+46pFrlFhjVk58Hp9t7Y4ejxiIslVcGFADtNhbwwAOZggdBw1flcEr7DP5MoWc6WMxKQ0WQZ
+kCjPg9tiQYJJEU/H+dt8scjjXy5uTNKGVxWTLsxRbTH5s24edD/o5KQ3owSvHJxLyej1aiE02lJQ
+e+E/Tzl4no6Fl2l4vqCWZyXFIxLdjZKgmMymASnIOEim0SyI4uQumUQkIXlxWdI9l+zfS0J9hpPx
+aOy7dJb0s9oi/72sjaYttzBPBG8zPDsdoqlT4FJWvrWWcjGsz6hw6T9RAe0+Ntrr1Ul0UP9KVXuQ
+q1YgJ5gnMPlg0Sj9A6MepkiGzfcN1Qwj8V6C5JOYEDd2/IaMpyPY6HPP6txDZQlQGbYYDcuFHUbV
+ptN83UCk2BMj1S08k5p7CbsnNGR1eFwwKXwlh6nmRtH53p96mr3z3wAAAP//AwBQSwMEFAAGAAgA
+AAAhAOPMD7XZAAAAAwEAAA8AAABkcnMvZG93bnJldi54bWxMj0FLw0AQhe+C/2EZwYvYTYUWidkU
+KUiLCKWp5jzNjkkwO5tmt0n8927bQ73MY3jDe98ki9E0oqfO1ZYVTCcRCOLC6ppLBZ+7t8dnEM4j
+a2wsk4JfcrBIb28SjLUdeEt95ksRQtjFqKDyvo2ldEVFBt3EtsTB+7adQR/WrpS6wyGEm0Y+RdFc
+Gqw5NFTY0rKi4ic7GgVDsenz3cdKbh7yteXD+rDMvt6Vur8bX19AeBr99RhO+AEd0sC0t0fWTjQK
+wiP+PE/efAZif1GZJvI/e/oHAAD//wMAUEsBAi0AFAAGAAgAAAAhALaDOJL+AAAA4QEAABMAAAAA
+AAAAAAAAAAAAAAAAAFtDb250ZW50X1R5cGVzXS54bWxQSwECLQAUAAYACAAAACEAOP0h/9YAAACU
+AQAACwAAAAAAAAAAAAAAAAAvAQAAX3JlbHMvLnJlbHNQSwECLQAUAAYACAAAACEAAFTCDbsCAADD
+BQAADgAAAAAAAAAAAAAAAAAuAgAAZHJzL2Uyb0RvYy54bWxQSwECLQAUAAYACAAAACEA48wPtdkA
+AAADAQAADwAAAAAAAAAAAAAAAAAVBQAAZHJzL2Rvd25yZXYueG1sUEsFBgAAAAAEAAQA8wAAABsG
+AAAAAA==
+" filled="f" stroked="f"&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+ &lt;w:wrap type="none"/&gt;
+ &lt;w:anchorlock/&gt;
+&lt;/v:rect&gt;&lt;![endif]--&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:8.25pt;height:8.25pt'&gt;
+ &lt;v:imagedata croptop="-65520f" cropbottom="65520f"/&gt;
+&lt;/v:shape&gt;&lt;span style='mso-element:field-end'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;span
+style='font-size:7.0pt;font-family:Symbol;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#666666'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no publicaremos artículos de contenido o comercio pornográfico o de lo contrario sexualmente explícito en la naturaleza. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-indent:-.25in;line-height:19.2pt;background:white'&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;span
+style='mso-element:field-begin;mso-field-lock:yes'&gt;&lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;SHAPE &lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;\* MERGEFORMAT &lt;span style='mso-element:field-separator'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:rect
+ id="Rectangle_x0020_45" o:spid="_x0000_s1029" alt="Description: *" style='width:8.25pt;
+ height:8.25pt;visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
+ mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+AAAA
+" filled="f" stroked="f"&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+ &lt;w:wrap type="none"/&gt;
+ &lt;w:anchorlock/&gt;
+&lt;/v:rect&gt;&lt;![endif]--&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:8.25pt;height:8.25pt'&gt;
+ &lt;v:imagedata croptop="-65520f" cropbottom="65520f"/&gt;
+&lt;/v:shape&gt;&lt;span style='mso-element:field-end'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;span
+style='font-size:7.0pt;font-family:Symbol;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#666666'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no involucrarse en prácticas comerciales fraudulentas (incluyendo, sin limitación, no un elemento cuando estará obligado a hacer así y no reconoce la entrega de un elemento cuando recibido u ofreciendo productos o servicios identificados por organismos de Gobierno que tienen una probabilidad alta de ser fraudulentas de envío). &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;span
+style='mso-element:field-begin;mso-field-lock:yes'&gt;&lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;SHAPE &lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;\* MERGEFORMAT &lt;span style='mso-element:field-separator'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:rect
+ id="Rectangle_x0020_44" o:spid="_x0000_s1028" alt="Description: *" style='width:8.25pt;
+ height:8.25pt;visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
+ mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+AAAAAA==
+" filled="f" stroked="f"&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+ &lt;w:wrap type="none"/&gt;
+ &lt;w:anchorlock/&gt;
+&lt;/v:rect&gt;&lt;![endif]--&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;v:shape
+ id="_x0000_i1027" type="#_x0000_t75" style='width:8.25pt;height:8.25pt'&gt;
+ &lt;v:imagedata croptop="-65520f" cropbottom="65520f"/&gt;
+&lt;/v:shape&gt;&lt;span style='mso-element:field-end'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Un usuario no va a enviar un mensaje a sabiendas falsa, inexacta, difamatoria o injuriosa, o contenido que es ilegal amenaza o acoso, o el contenido que menosprecie el Sitio o de sus usuarios de manera acrítica o constructiva, incluyendo, sin limitación, en sus datos personales en su perfil, en sus preguntas y respuestas en el Q &amp; A, y en su descripción de su experiencia comercial en sus comentarios. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario sin emprender ninguna acción o causar cualquier acción que ponga en peligro la integridad de la información que reciben o que es recibida por otros usuarios.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario se acceder al sitio y utilizar nuestros servicios sólo con el fin de sus elementos en el sitio de comercio potencialmente o realmente o adquirir de otra manera los elementos en el sitio y no, por ejemplo, pero sin limitación, directa o indirectamente beneficiarse o promover una empresa competitiva.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;A user will in good faith post items
+only in their appropriate categories and appropriate areas on the Site. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario describe cada uno de sus elementos con precisión y bastante como escribir, atributos, como condición y otros factores que pueden influir en la decisión de otro usuario de comercio para que el tema. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario está obligado a completar un comercio una vez que han entrado en un acuerdo de comercio, es decir, cuando se ha confirmado su comercio, a menos que haya una clara evidencia de que allí ha sido desinformación material relacionados con su base para el comercio (por ejemplo, un error tipográfico que cambia sustancialmente la descripción del producto). La obligación de un usuario para completar un comercio incluye la entrega de rápido y segura de su artículo a su socio comercial en la dirección designada para su recepción. &lt;/span&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;span
+style='mso-element:field-begin;mso-field-lock:yes'&gt;&lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;SHAPE &lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;\* MERGEFORMAT &lt;span style='mso-element:field-separator'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:rect
+ id="Rectangle_x0020_38" o:spid="_x0000_s1027" alt="Description: *" style='width:8.25pt;
+ height:8.25pt;visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
+ mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+AAAfBgAAAAA=
+" filled="f" stroked="f"&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+ &lt;v:textbox&gt;
+  &lt;![if !mso]&gt;
+  &lt;table cellpadding=0 cellspacing=0 width="100%"&gt;
+   &lt;tr&gt;
+    &lt;td&gt;&lt;![endif]&gt;
+    &lt;div&gt;
+    &lt;p class=MsoNormal align=center style='text-align:center'&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;![if !mso]&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;![endif]&gt;&lt;/v:textbox&gt;
+ &lt;w:wrap type="none"/&gt;
+ &lt;w:anchorlock/&gt;
+&lt;/v:rect&gt;&lt;![endif]--&gt;&lt;![if !vml]&gt;&lt;img width=15 height=15
+src="TermsOfUse_files/image001.png" alt="Description: *" v:shapes="Rectangle_x0020_38"&gt;&lt;![endif]&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;v:shape
+ id="_x0000_i1026" type="#_x0000_t75" style='width:8.25pt;height:8.25pt'&gt;
+ &lt;v:imagedata croptop="-65520f" cropbottom="65520f"/&gt;
+&lt;/v:shape&gt;&lt;span style='mso-element:field-end'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario de ninguna manera interferirá con capacidad de otro usuario de comercio o el buen funcionamiento del sitio. Un usuario sin emprender ninguna acción que podrá imponer, a la discreción de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt;, una demanda excesiva o desproporcionada en la infraestructura del sitio. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no distribuir o publicar, o deliberadamente cooperar en la distribución o la contabilización de, spam, o distribuir o publicar cualquier material promocional no directamente relacionados con sus actividades comerciales en el sitio.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no distribuir o colaborar conscientemente en la distribución de virus u otras tecnologías que podrán dañar el sitio, los demás usuarios del sitio o &lt;b&gt;'The Global Swap Shop'&lt;/b&gt;.
+&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;10.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no utilizará ningún robot, spider, lector off-line, raspador u otros medios automatizados para acceder al sitio sin el consentimiento expreso de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt;. 
+&lt;b&gt;'The Global Swap
+Shop'&lt;/b&gt; consiente expresamente que el uso de arañas por motores de búsqueda públicos con el propósito de crear índices disponibles al público de información en el sitio, con exclusión de información que puede ser identificable personalmente a los usuarios. Nos reservamos el derecho de revocar esta excepción en cualquier momento, ya sea en su totalidad o por circunstancias específicas. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;11.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no se copiar, modificar, crear trabajos derivados, distribuir o exhibir públicamente el contenido del sitio que no procedan, o copia, modificar, crear trabajos derivados de, distribuir o exhibir públicamente los derechos de autor y marcas registradas de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; o lo contrario atentan contra cualquier derecho de autor, marca comercial, secreto comercial, patentes o otros derechos de propiedad en virtud de las leyes de cualquier jurisdicción. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;12.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario que no directa o indirectamente recopilar información acerca de otros usuarios del sitio sin su consentimiento expreso o distribuir su información personal en violación de las leyes aplicables. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l0 level1 lfo1;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;13.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Un usuario no será lo contrario violan leyes ni reglamentos que pueden ser aplicables a sus actividades comerciales, los derechos de otros usuarios, incluidos sus derechos a la privacidad o publicidad de las políticas de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; como se indica en el presente acuerdo de usuario o en nuestra política de privacidad. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;span style='font-size:
+12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Actividades Restringidas&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;El comercio de determinados elementos se puede prohibido o restringido en virtud de las leyes de importación y exportación y reglamentos de varias jurisdicciones o bajo las leyes y reglamentos que rigen la venta, transferencia o distribución de ciertos elementos. El tratamiento legal de los elementos puede variar de un Estado a otro o de un país a otro. Además, La tienda de intercambio Global se reserva el derecho como cuestión de política y a su entera discreción para prohibir o limitar el comercio de artículos. El usuario es responsable de garantizar la legalidad de los elementos que se publican y cumplir con las restricciones comerciales aplicables, que pueden o no pueden referirse a dónde está el elemento a entregarse, y que la publicación de esos artículos no es contraria a la política de La tienda de intercambio Global. Un usuario no será el comercio de un elemento que está prohibido si se recibe a su dirección de envío o que no cumpla con las restricciones comerciales aplicables. Si registra los elementos que no sean legalmente enviados a determinados destinos, como parte de tu post o en la descripción del elemento debe tan limitar los destinos a los que estás dispuesto a enviar. Ejemplos de artículos que están prohibidos o restringidos, sin limitación, las siguientes:&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;1.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;span
+style='mso-element:field-begin;mso-field-lock:yes'&gt;&lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;SHAPE &lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;\* MERGEFORMAT &lt;span style='mso-element:field-separator'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;!--[if gte vml 1]&gt;&lt;v:rect
+ id="Rectangle_x0020_29" o:spid="_x0000_s1026" alt="Description: *" style='width:8.25pt;
+ height:8.25pt;visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
+ mso-top-percent:-10001;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:char;mso-position-vertical:absolute;
+ mso-position-vertical-relative:line;mso-left-percent:-10001;mso-top-percent:-10001;
+ v-text-anchor:top' o:gfxdata="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
+AAAAAA==
+" filled="f" stroked="f"&gt;
+ &lt;o:lock v:ext="edit" aspectratio="t"/&gt;
+ &lt;w:wrap type="none"/&gt;
+ &lt;w:anchorlock/&gt;
+&lt;/v:rect&gt;&lt;![endif]--&gt;&lt;!--[if mso &amp; !supportInlineShapes &amp; supportFields]&gt;&lt;v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:8.25pt;height:8.25pt'&gt;
+ &lt;v:imagedata croptop="-65520f" cropbottom="65520f"/&gt;
+&lt;/v:shape&gt;&lt;span style='mso-element:field-end'&gt;&lt;/span&gt;&lt;![endif]--&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Material para adultos &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;2.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:10.0pt;font-family:Symbol;
+color:#666666;mso-no-proof:yes'&gt;&lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt;&lt;span
+style='mso-spacerun:yes'&gt; &lt;/span&gt;&lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Bebidas alcohólicas, incluidos los servicios relacionados con la distribución de bebidas alcohólicas &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;3.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Animales y productos de vida silvestre&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;4.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:7.0pt;font-family:Symbol;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#666666'&gt;&lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Las armas y el armamento, incluidas las municiones, armas de fuego, armas de fuego o partes determinadas o accesorios, y ciertas armas o cuchillos regulados según la legislación aplicable &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;5.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:7.0pt;font-family:Symbol;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#666666'&gt;&lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Artículos falsificados o robados &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;6.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Tarjetas de crédito &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;7.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Drogas, narcóticos, esteroides, determinadas sustancias controladas o otros productos que presentan un riesgo para la seguridad de los consumidores, incluso mediante la prescripción y parafernalia de drogas&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;8.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Embargado bienes y mercancías desde o hacia países prohibidos &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;9.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:7.0pt;font-family:Symbol;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:#666666'&gt;&lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt;&lt;/span&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Elementos peligrosos o elementos que son perecederos y pueden convertirse en peligrosos &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;10.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Elementos que alentar, promover, facilitar o indicar a otros a participar en actividades ilegales.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;11.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Prohibido servicios, incluidos ciertos servicios de orientación sexual. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;12.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Acciones, bonos y otros títulos, incluyendo sin limitación opciones, futuros o inversión intereses en cualquier propiedad o equidad. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:.25in;mso-add-space:auto;text-align:justify;text-indent:-.25in;
+line-height:19.2pt;mso-list:l1 level1 lfo2;background:white'&gt;&lt;![if !supportLists]&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;span style='mso-list:Ignore'&gt;13.&lt;span style='font:7.0pt "Times New Roman"'&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;![endif]&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Productos del tabaco &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Como cuestión de política de La tienda de intercambio Global, los usuarios tienen prohibidos publicar artículos o contenido que desprestigie raza, etnia, preferencia sexual o el género de una persona, o promueve la discriminación o intolerancia sobre la base de raza, etnia, preferencia sexual o de género, promueve el odio, la violencia o la explotación financiera de un delito, o promueve organizaciones con esas opiniones. Si un usuario puestos de elementos que son para adultos en la naturaleza, tales partidas deben describirse de manera que no es ofensiva para otros usuarios o no será consideradas obscenas y pueden negociar sólo a las personas que legalmente pueden poseer o poseen los elementos. Cuando un usuario oficios para tal un artículo, se certificación que tienen el derecho legal a poseer o poseen el elemento. Elementos que constituyen a pornografía infantil o elementos que promueven la pornografía infantil o la explotación de los niños, están estrictamente prohibidos.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Los usuarios son necesarios para cumplir con las normas de conducta que se estipulan en el presente acuerdo de usuario y a no participar en actividades que violen o podrían conducir a la violación de estas normas. Además, los usuarios no tomará cualquier acción que puede dar lugar a responsabilidad a &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; o interferir en nuestra capacidad para proporcionar servicios.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Comentarios&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Se ruega proporcionar información sobre tu experiencia de compraventa al completar un comercio. Con el tiempo, los usuarios que regularmente comercio establecerá una trayectoria que pueden ser invocada por los otros, incluyendo calificación compuesto de un usuario. Nos podemos limitar la manera en que un usuario puede utilizar el sitio basado en la valoración de su usuario y los comentarios que hizo en conexión con ellos o, en el caso de los comentarios que es siempre negativo o que de lo contrario consideramos inaceptables para un usuario del sitio, suspensión su uso de nuestros servicios.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Content of On-Site Forums&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:
+12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;The Global Swap Shop&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt; no puede y no revisará todas las comunicaciones realizadas por los usuarios en paneles de discusión. Nos reservamos el derecho de supervisar cualquier esas instalaciones de comunicaciones interactivas y a modificar, editar o eliminar cualquier comunicación que viola este acuerdo de usuario o, a nuestro criterio, consideramos que es contraria a las políticas de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; o inadecuado o ofensivo a nuestros usuarios. Además, nos reservamos el derecho a utilizar las comunicaciones registradas para nuestros propios propósitos, incluyendo, sin limitación, la comercialización y promoción.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Licencias de Uso de la Información&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Con arreglo y limitadas por nuestra política de privacidad, acepta la licencia de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; para utilizar la información que usted proporcione. Para ello, se compromete a conceder La tienda Global de intercambiar la exclusiva, pero perpetuo y irrevocable y en todo el mundo el derecho a ejercer cualquier derecho de autor, publicidad y derechos de base de datos que puede tener en la información que usted proporciona a nosotros, en cualquier medio, conocido o desconocido. Nuestro derecho a utilizar su información es libre. En virtud de su concesión, estamos poder sublicencia (a través de múltiples niveles) el derecho a ejercer su derecho de autor, publicidad y derechos de base de datos.&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Tasas&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Las tasas cobradas por nuestros servicios, se puede cambiar, y los honorarios se pueden añadir o suspender, en cualquier momento a nuestra discreción y sin previo aviso. Nuevos cargos se harán efectivos inmediatamente. No obstante lo anterior, las nuevas tarifas no se aplicará a las operaciones activas en el momento de su cambio, adición o interrupción. Las comisiones cobradas en relación con los eventos de promoción pueden o no ser el mismo que sería aplicable a los usuarios de vigencia del Sitio. Si los nuevos servicios se introducen en el sitio, las comisiones cobradas por los servicios se harán efectivos en el momento de su introducción. &lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Taxes&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Aunque puede haber ventajas fiscales significativos cuando vendes lo que quieres, no hacemos responsabiliza de las consecuencias fiscales a los usuarios de sus transacciones completadas. El usuario es el único responsable y basarse en &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; para informar de su actividad comercial en la medida necesaria por impuestos u otras leyes y para el pago de impuestos todos (incluido, si procede, impuestos sobre la renta y ventas y uso de impuestos) que puedan surgir como resultado de un comercio.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Remedios para la Violación por el Usuario&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;The Global Swap Shop&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt; se reserva el derecho de restringir el uso de nuestros servicios, incluyendo, sin limitación, los tipos de elementos que pueden comerciar o temporalmente o suspender indefinidamente su uso de nuestros servicios o permanentemente negar acceso al sitio, en cualquier momento y sin previo aviso, si usted ha violado los términos y condiciones de este acuerdo de usuario o nuestra política de privacidad, o si, en nuestro criterio, su uso continuado de nuestros servicios sería contrario a la ley o Reglamento o es potencialmente perjudicial para otras personas o es otra cosa, no en el mejor interés de la comunidad de La tienda de intercambio Global. Restricciones en el uso del sitio pueden incluir la eliminación inmediata de elementos registrados, la terminación de las operaciones activas con el usuario, y la emisión de una advertencia relacionados con las acciones del usuario a la comunidad de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt;. Si se restringe el uso de nuestros servicios o el uso del sitio es suspendido o negado permanentemente, el usuario no tendrá derecho a indemnización alguna. Las tasas pagadas en las ocupaciones terminados pueden perderá, a nuestra discreción. Usted acepta que La tienda de intercambio Global tiene el derecho de cobrar su tarjeta de crédito, cuenta PayPal o otros en medio de sitio de pago por los daños resultantes de la violación de este acuerdo de usuario.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Riesgos Asumidos&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Usted asume ciertos riesgos cuando y en la medida utiliza el sitio, incluyendo la posibilidad de que encontrará el contenido de otros usuarios ofensivas, inexactas o engañosas y las prácticas comerciales de otros usuarios desleal o depredadores. Existe el riesgo de que inadvertidamente comerciar con personas que no tienen el derecho legal de comercio o de lo contrario se trata bajo falsos pretextos. El usuario se compromete a aceptar estos riesgos y &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; no es responsable de los actos u omisiones de los usuarios del sitio.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;EXCLUSIÓN DE GARANTÍAS&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:
+12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Su uso del sitio y su contenido es bajo su propia responsabilidad. El usuario acepta que obtener cualquier información o materiales o bienes, servicios o el uso de bienes inmuebles, ya sea temporal o permanente, a través del sitio se realiza a discreción del usuario y el riesgo del usuario y que el usuario será responsable de cualquier daño que pueda resultar de cualquier transacción.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Our services are provided on an “as
+is” and “as available” basis. To the extent permitted by law, The Global Swap
+Shop disclaims all warranties of any kind, express or implied, including but
+not limited to warranties of title or implied warranties of merchantability or
+fitness for a particular purpose.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt; Ni &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; de sus directores, oficiales o empleados garantizan que (1) el sitio o su contenido se sus necesidades o ser precisa, completa, oportuna o confiable, (2) el sitio estará disponible para su uso en forma ininterrumpida y será accesible, oportuna, o seguro, (3) cualquier material publicado en o obtenido o accesible a través del sitio será precisa, completa, oportuna o confiable, (4) errores en el sitio o su contenido será corregido, (5) el sitio estará libre de virus u otras tecnologías que pueden dañar a sus usuarios, allí (6) es o debe ser garantías implícitas derivadas de tratos comerciales o uso del comercio y (7) la infraestructura tecnológica del sitio no violan los derechos de propiedad de otros. &lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Ningún Consejo o información, ya sea escrito u oral, obtenida de &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; o a través del uso del sitio creará ninguna garantía no expresamente en el acuerdo de este usuario.&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;i&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Ciertas jurisdicciones no permiten la exclusión de garantías implícitas, y en este caso las exclusiones anteriores pueden no aplicarse a usted. Puede tener otros derechos legales que pueden variar de una jurisdicción a otra.&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;line-height:140%;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;LÍMITES DE RESPONSABILIDAD&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;En ningún caso &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; de sus directores, oficiales o empleados serán responsables por pérdida de beneficios o daños especiales, incidentales, consecuenciales o ejemplares derivados de o en conexión con su uso del sitio o de este acuerdo de usuario (o no por negligencia activo, pasivo o imputado).&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Usted acepta que ni &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; o sus directores, oficiales y empleados son responsables o tengan cualquier responsabilidad a usted o a terceros por conducta inexacta, o amenazas o acoso difamatorio o calumnioso, ofensivo u obsceno por otra parte, o por la infracción por parte de otro de sus derechos de privacidad o publicidad o propiedad intelectual o real.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;line-height:140%;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;Su recurso exclusivo contra &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; o sus directores, funcionarios y empleados de cualquier insatisfacción con nuestros servicios, tu experiencia de compraventa, o los términos y condiciones de este acuerdo de usuario es la interrupción de su uso del Sitio.&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;line-height:140%;font-family:
+"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Indemnización&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Se indemnizará y mantenga inofensivo &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; y sus directores, oficiales, empleados y agentes de reclamaciones o demandas, incluidos los honorarios razonables de abogado que puedan originarse en relación con tales acciones, derivados, directa o indirectamente, por el incumplimiento de los términos y condiciones de este acuerdo de usuario o cualquier ley o Reglamento o de cualquier reclamo por daños o daños a personas o bienes derivadas de bienes raíces de propiedad o de una transacción de propiedad a la que usted es una de las partes.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Cumplimiento de las Leyes y Regulaciones&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Un usuario cumplirá con todas las leyes y reglamentos, locales, nacional e internacional, aplicable a sus actividades comerciales en el sitio.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Ninguna agencia&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Ninguna agencia, asociación o relación de empresa conjunta o la de patrón a empleado o franquiciador al franquiciado, existe entre el usuario y el intercambio Global tienda.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Arbitraje de Controversias por Usuario&lt;/span&gt;&lt;/b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Usted acepta que cualquier reclamación contra La tienda de intercambio Global, sus directores, oficiales o empleados, se señalarán exclusivamente con arreglo a las normas de la Asociación Americana de arbitraje en San José, California, Estados Unidos. Puede introducir la sentencia dictada por el árbitro en cualquier Tribunal de jurisdicción competente. No obstante lo anterior, se recomienda ponerse en contacto primero con &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; para afectar a una resolución si no estuviera satisfecho con nuestros servicios o discutir nuestras acciones. Nos esforzaremos por responder de una forma razonable y oportuna.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Resolution of Disputes Brought by &lt;span class=GramE&gt;The&lt;/span&gt;
+Global Swap Shop&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Cualquier reclamación por La tienda de intercambio Global contra el usuario podrá interponerse con arreglo a las normas de la Asociación Americana de arbitraje o puede ser juzgado por un Tribunal de jurisdicción competente, en San José, California, Estados Unidos, o donde se encuentra el usuario (dirección de usuario o la dirección del centro de actividad principal del usuario). Con respecto a lo anterior, la forma de solución de controversias y su lugar es a nuestra discreción y sin hacer referencia a la elección de las disposiciones de las leyes de cualquier jurisdicción. El usuario se compromete a someterse a la jurisdicción personal de los tribunales ubicados en San José, California, Estados Unidos.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:20.4pt;background:white'&gt;&lt;b&gt;&lt;span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Miscellaneous&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:12.0pt;
+font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Este acuerdo de usuario se rige por las leyes del Estado de California. Si cualquiera de los términos y condiciones de este acuerdo de usuario es inválida o por cualquier motivo, los términos y condiciones que se considerará independiente de los restantes términos y condiciones de este acuerdo de usuario y no afectará la validez o la aplicabilidad de las disposiciones restantes de este acuerdo de usuario.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Ninguna renuncia de cualquiera de los términos y condiciones de este acuerdo de usuario se considerará una renuncia continua o la renuncia a cualquiera de los otros términos y condiciones de este contrato de usuario, y nuestra inacción con respecto a cualquier incumplimiento de este acuerdo de usuario no renunciar a nuestro derecho a actuar con respecto a incumplimientos posteriores o similares.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Este acuerdo de usuario establece el todo entendimiento y acuerdo de las partes del presente Reglamento con respecto a las materias contenidas en este documento. Las partidas son de referencia sólo y en ninguna manera modificación, modificación o delimitan las disposiciones a que se refieren.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;line-height:140%;background:white'&gt;&lt;span style='font-size:
+12.0pt;line-height:140%;font-family:"Times New Roman","serif";mso-fareast-font-family:
+"Times New Roman"'&gt;Avisos en virtud de este acuerdo de usuario se enviarán a &lt;u&gt;&lt;span
+style='color:#666666'&gt;&lt;a href="mailto:contactus@globalswapshop.com"&gt;contactus@globalswapshop.com&lt;/a&gt;&lt;/span&gt;&lt;/u&gt; si a &lt;b&gt;'The Global Swap Shop'&lt;/b&gt; y, si al usuario, a la dirección de correo electrónico proporcionada en relación con la cuenta del usuario. Alternativamente, puede darse aviso al usuario por correo certificado, devolver recibo solicitado, enviado a la predeterminada del usuario dirección de envío.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</value>
+  </data>
+</root>

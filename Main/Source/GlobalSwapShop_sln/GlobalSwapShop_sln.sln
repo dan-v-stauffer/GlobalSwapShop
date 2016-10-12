@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GlobalSwapShop_web", "Source\GlobalSwapShop_web", "{9DEEB320-4292-4892-9065-D53B840A3E62}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{1A7960BC-3904-4FCD-8096-A585E86A533A}|FlajaxianCustomAdapters.dll;{1D9CCADB-6AEE-48CD-8588-A8DD554A59F8}|GlobalSwapShopUtilityLib.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/GlobalSwapShop_web"
+		Debug.AspNetCompiler.PhysicalPath = "Source\GlobalSwapShop_web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GlobalSwapShop_web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/GlobalSwapShop_web"
+		Release.AspNetCompiler.PhysicalPath = "Source\GlobalSwapShop_web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GlobalSwapShop_web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8181"
+		VWDDynamicPort = "false"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalSwapShopUtilityLib", "Source\GlobalSwapShopUtilityLib\GlobalSwapShopUtilityLib.csproj", "{1D9CCADB-6AEE-48CD-8588-A8DD554A59F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlajaxianCustomAdapters", "Source\FlajaxianCustomAdapters\FlajaxianCustomAdapters.csproj", "{1A7960BC-3904-4FCD-8096-A585E86A533A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://184.168.109.8:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = Source\\GlobalSwapShop_web
+		SccProjectName1 = Source/GlobalSwapShop_web
+		SccLocalPath1 = Source\\GlobalSwapShop_web
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Source\\GlobalSwapShopUtilityLib\\GlobalSwapShopUtilityLib.csproj
+		SccProjectName2 = Source/GlobalSwapShopUtilityLib
+		SccLocalPath2 = Source\\GlobalSwapShopUtilityLib
+		SccProjectUniqueName3 = Source\\FlajaxianCustomAdapters\\FlajaxianCustomAdapters.csproj
+		SccProjectName3 = Source/FlajaxianCustomAdapters
+		SccLocalPath3 = Source\\FlajaxianCustomAdapters
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DEEB320-4292-4892-9065-D53B840A3E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEEB320-4292-4892-9065-D53B840A3E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEEB320-4292-4892-9065-D53B840A3E62}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEEB320-4292-4892-9065-D53B840A3E62}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1D9CCADB-6AEE-48CD-8588-A8DD554A59F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9CCADB-6AEE-48CD-8588-A8DD554A59F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9CCADB-6AEE-48CD-8588-A8DD554A59F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9CCADB-6AEE-48CD-8588-A8DD554A59F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7960BC-3904-4FCD-8096-A585E86A533A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7960BC-3904-4FCD-8096-A585E86A533A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7960BC-3904-4FCD-8096-A585E86A533A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7960BC-3904-4FCD-8096-A585E86A533A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

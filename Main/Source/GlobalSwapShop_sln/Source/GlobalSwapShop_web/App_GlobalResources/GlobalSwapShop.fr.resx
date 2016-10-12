@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APP_WELCOME" xml:space="preserve">
+    <value>Bienvenue à la GlobalSwapShop.com</value>
+  </data>
+  <data name="CAPTCHA_ERROR_SUMMARY" xml:space="preserve">
+    <value>Entrée de validation a échoué. S'il vous plaît essayez de nouveau.</value>
+  </data>
+  <data name="CAPTCHA_LEN_INSTRUCTIONS" xml:space="preserve">
+    <value>&lt;div&gt; Entrez le {0} caractères du code affiché dans l'image ci-dessous. &lt;br&gt; Les personnages ne sont pas sensibles à la casse. &lt;/ div&gt;</value>
+  </data>
+  <data name="CONNECT_WITH_FACEBOOK" xml:space="preserve">
+    <value>Connectez-vous avec Facebook</value>
+  </data>
+  <data name="INVITATION_ACCEPT" xml:space="preserve">
+    <value>Welcome to Global Swap Shop</value>
+  </data>
+  <data name="INVITE_FRIENDS_CONTENT" xml:space="preserve">
+    <value>Come join us at the Global Swap Shop</value>
+  </data>
+  <data name="PRIVACY_POLICY" xml:space="preserve">
+    <value>&lt;div&gt;
+    
+&lt;!-- START PRIVACY POLICY CODE --&gt;
+        &lt;div style="font-family:arial"&gt;
+            &lt;strong&gt;Quelles sont les informations que nous recueillons?
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Nous recueillons des informations auprès de vous lorsque vous vous inscrivez sur notre site.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Lors de la commande ou en vous inscrivant sur ​​notre site, le cas échéant, vous pouvez être invité à
+             entrez votre: nom ou adresse e-mail. Vous pouvez, toutefois, visitez notre site
+             anonymement. Vous pouvez également connecter via Facebook.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Qu'est-ce que nous utilisons vos informations?
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Toute l'information que nous recueillons auprès de vous peuvent être utilisés dans l'un des suivants
+             manières:
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; Pour personnaliser votre expérience
+&lt;br /&gt;
+            (votre information nous aide à mieux répondre à vos besoins individuels)&lt;br /&gt;
+            &lt;br /&gt;
+            ; Pour améliorer notre site Web&lt;br /&gt;
+           (nous nous efforçons continuellement d'améliorer nos offres web basée sur l'information
+             et la rétroaction que nous recevons de vous)
+&lt;br /&gt;
+            &lt;br /&gt;
+            ; Pour améliorer le service à la clientèle
+&lt;br /&gt;
+            (votre information nous aide à répondre plus efficacement à votre service à la clientèle
+             demandes et des besoins de soutien)
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            ; Pour envoyer des courriels périodiques
+&lt;br /&gt;
+            &lt;br /&gt;
+            L'adresse email que vous fournissez peuvent être utilisées pour vous envoyer des informations, répondre à
+             enquêtes, et / ou d'autres demandes ou questions.
+&lt;br /&gt;
+            &lt;br /&gt;
+            Remarque: Si à tout moment vous souhaitez vous désinscrire de la réception d'emails avenir,
+             nous incluons détaillée instructions de désabonnement au bas de chaque email.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Comment protégeons-nous vos informations?
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+           Nous mettons en œuvre une variété de mesures de sécurité pour maintenir la sécurité de vos
+             informations personnelles lorsque vous passez une commande
+&lt;br /&gt;
+            &lt;br /&gt;
+            Nous vous proposons l'utilisation d'un serveur sécurisé. Tous fourni sensibles / information sur le crédit
+             est transmis via Secure Socket Layer (SSL) puis cryptés dans
+             notre passerelle de paiement des fournisseurs de base de données ne doivent être accessibles par les personnes autorisées
+             avec des droits d'accès spéciaux à ces systèmes, et sont tenus d'? garder le
+             des informations confidentielles.
+&lt;br /&gt;
+            &lt;br /&gt;
+            Après une opération, vos informations personnelles (cartes de crédit, la sécurité sociale
+             nombres, les finances, etc) ne seront pas stockées sur nos serveurs.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Ne nous utilisons des cookies?
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Oui (cookies sont de petits fichiers qu'un site ou son fournisseur de services de transferts d'
+             vos ordinateurs disque dur via votre navigateur Web (si vous permettez) qui permet
+             les sites ou les fournisseurs de services des systèmes de reconnaître votre navigateur et de saisir et
+             Rappelez-vous certaines informations
+&lt;br /&gt;
+            &lt;br /&gt;
+           Nous utilisons des cookies pour comprendre et enregistrer vos préférences pour les futures visites et
+             compiler des données globales sur le trafic du site et l'interaction site afin que nous puissions
+             offrir des expériences et des outils du site de mieux dans l'avenir. Nous pouvons contrat avec
+             prestataires de services tiers pour nous aider à mieux comprendre notre site
+             visiteurs. Ces fournisseurs de services ne sont pas autorisés à utiliser l'information
+             recueillis en notre nom, sauf pour nous aider à mener et améliorer nos activités.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Devons-nous divulguer toute information à des tiers?
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Nous ne vendons pas, le commerce, ou autrement transférer à des tiers vos personnellement
+             information identifiable. Ceci n'inclut pas de tiers de confiance qui assistent
+             nous en opérant notre site Web, la conduite de nos affaires, ou vous servir, tant
+             que ces parties conviennent de garder cette information confidentielle. Nous pouvons également
+             communiqué vos informations lorsque nous croyons nécessaire pour se conformer aux
+             la loi, appliquer nos politiques de site, ou de protéger nos droits ou d'autres personnes, des biens,
+             ou la sécurité. Cependant, l'information des visiteurs non identifiables personnellement peuvent être
+             fournis à d'autres parties pour le marketing, la publicité, ou d'autres utilisations.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Liens avec des tiers
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+           Parfois, à notre discrétion, nous pouvons inclure ou offrir des produits de tiers ou
+             services sur notre site Web. Ces sites tiers ont séparé et indépendant
+             politiques de confidentialité. Nous n'avons donc aucune responsabilité ou obligation pour les
+             contenu et les activités de ces sites liés. Néanmoins, nous cherchons à protéger
+             l'intégrité de notre site et accueillir tous les commentaires au sujet de ces sites.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;California Online Privacy Protection Act de conformité
+&lt;/strong&gt;&lt;br /&gt;
+            &lt;br /&gt;
+            Parce que nous respectons votre vie privée, nous avons pris les précautions nécessaires pour être en
+             conformité avec la Loi sur la protection des renseignements personnels en ligne en Californie. Nous seront donc
+             ne pas diffuser vos informations personnelles à des tiers sans votre
+             consentement.
+&lt;br /&gt;
+            &lt;br /&gt;
+	     Dans le cadre de la California Online Privacy Protection Act, tous les utilisateurs de notre site
+             peuvent apporter des changements à leurs renseignements à tout moment en se connectant à leur
+             panneau de contrôle et allez à la page &amp;#39;Modifier mon profil&amp;#39;.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;CEnfants de conformité en ligne Loi sur la protection de Protection
+
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Nous sommes en conformité avec les exigences de la COPPA vie privée (enfants en ligne
+             Protection Act), nous ne recueillons aucune information de toute personne de moins de 13 ans
+             âge. Notre site Web, produits et services sont tous dirigés aux personnes qui sont à
+             moins de 13 ans ou plus.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Politique de confidentialité en ligne uniquement
+&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Cette politique de confidentialité en ligne s'applique uniquement aux informations collectées par le biais de notre
+             site et non aux informations recueillies hors connexion.
+&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;strong&gt;Terms and Conditions&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            S'il vous plaît également visiter notre section Termes et Conditions instituant l'utilisation,
+             disclaimers, et limitations de responsabilité régissant l'utilisation de notre site Web à
+
+            &lt;a href="http://www.globalswapshop.com"&gt;http://www.globalswapshop.com&lt;/a&gt;&lt;br /&gt;
+            &lt;br /&gt;
+            
+		&lt;strong&gt;Modifications notre Politique de confidentialité &lt;/ strong&gt; 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            Si nous décidons de changer notre politique de confidentialité, nous afficherons ces modifications sur cette 
+            page, envoyez un courriel vous avisant de tout changement, et / ou mettre à jour la confidentialité 
+            Date de modification de politique ci-dessous. 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            &lt;strong&gt; Nous contacter &lt;/ strong&gt; 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            Si vous avez des questions concernant cette politique de confidentialité vous pouvez nous contacter 
+            en utilisant les informations ci-dessous. 
+            &lt;br /&gt; 
+            &lt;br /&gt; 
+            &lt;a href="http://www.globalswapshop.com"&gt;http://www.globalswapshop.com&lt;/a&gt; &lt;br /&gt;
+            &lt;a href="mailto:contactus@globalswapshop.com"&gt;contactus@globalswapshop.com&lt;/a&gt; &lt;br /&gt; 
+            &lt;center&gt; 
+                &lt;div style="font-size:7pt; font-family:Arial; color:gray; text-decoration:none;"&gt; 
+                    Politique de confidentialité Crée par &lt;a href = "http://www.freeprivacypolicy.com" 
+                        style = "color: # 3C3C3C; text-decoration: none;" target = "_blank"&gt; Free Privacy 
+                    Politique &lt;/ a&gt; &lt;/ div&gt; 
+            &lt;/ Center&gt;
+
+        &lt;/div&gt;
+        &lt;center&gt;
+            &lt;!-- END PRIVACY POLICY CODE --&gt;
+        &lt;/center&gt;
+    
+    &lt;/div&gt;</value>
+  </data>
+</root>

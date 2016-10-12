@@ -1,0 +1,85 @@
+VERSION INFO
+
+2011-05-15 (ver 4.1)
+1. Send Button control is added
+2. Request Dialog control is added
+3. Invite Friends - AcceptUrl default value is taken from web.config instead from ActionUrl
+4. Like Button - SetColorScheme property is renamed to ColorScheme
+5. Like Box - fixed bug with Height property, PageId default value is taken from web.config
+
+
+2011-01-02 (ver 4.0)
+1. Demo Website, documentation and components are adapted to use with
+   Facebook C# SDK - Graph API open source .net SDK
+2. InitFVK now make initialization in asynchoronous mode. Some of components
+   are adapted to use it.
+3. Some of components make rendering in Page_Prerender instead of in Page_Load
+   to support dynamic loading from DB
+4. SessionFactory is excluded from the library becuase it made dependencies with
+   Facebook Developer Toolkit
+5. Some other minor improvements
+
+
+
+2010-10-08 (ver 3.0)
+1. Implementation of components is now based on Graph API. There are no anymore
+   dependencies with Facebook Developer Toolkit. For details how to addapt existing
+   applications on new version look at 'Migrations from 2.x to 3.x version' section in the manual.
+2. Like Button control is added.
+3. Like Box control is added.
+4. Logout Button control is added.
+5. Added some new properties on existing controls and some which are not supported by Facebook
+   anymore are removed. 
+
+
+2010-09-12 (ver 2.2.1)
+1. Bug fixed on Invite control. It is possible to get a list of invited friends' IDs
+   by calling Request.QueryString("ids[]")
+
+
+2010-08-04 (ver 2.2)
+1. Fixed double popups error on stream publish control
+1. AddToProfileButton control is now deprecated. It will not exist in next version. 
+
+
+2010-06-14 (ver 2.1.1)
+1. EnableXFBML control now supports applications installed in domain 
+   directories (not just in root domain).
+   
+
+2010-05-5 (ver 2.1)
+1. The library and FVK Demo web site changed to work with new permissions 
+   dialog using Facebook Developer Toolkit 3.1.
+2. It is not required for FVK folder to be located in application root folder
+   any more.
+3. Permissions control bug fixed with auto_open command type and empty title.
+4. Permissions control's permission list is extended.
+5. ConnectSessionFactory class is now included in the library.
+6. CookieTool class is now included in the library to provide Facebook Cookies
+   cleaning and other features in the future.
+
+
+2010-03-27 (ver 2.0)
+1. 4 new components are added: Send User Status, Stream Publish Friend List,
+   Add to Profile Button, Select Friends.
+2. Since these new components are based on Facebook Developer Toolkit 3.01
+   entire library (w. Demo web site) is upgraded for new FDT.
+
+
+2010-02-12 (ver 1.1)
+1. Stream Publish Popup extended with Command Type (link, button or auto_open).
+   Auto open enables automatic opening of stream publish popup on page load.
+2. Stream Publish Popup extended with property to change the title of 
+   link/button.
+3. Share button bug is fixed and the control extended with new property 
+   to set a button title.
+4. Permissions extended with Command Type as Stream Publish popup 
+   and property for getting the list of all confirmed permissions.
+
+
+2010-01-16 (ver 1.01)
+1. Stream Publish extended with Enable property.
+2. Source code is much better documented.
+
+
+2009-12-20 Start Release (ver 1.0)

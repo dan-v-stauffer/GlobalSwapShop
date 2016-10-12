@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster"  %>
+<%@ Register TagPrefix="fvk" Namespace="FVK" Assembly="FVKConnect" %>
+<%@ Register TagPrefix="fvk" TagName="initfvk" Src="~/FVK/InitFVK.ascx" %>
+<%--<%@ Register TagPrefix="fvk" TagName="enablexresizable" Src="~/FVK/EnableResizable.ascx" %>--%>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">--%>
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title></title>
+          <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="~/Styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="FVK/fvk.css" />
+  <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <fvk:initfvk ID="InitFVK1" runat="server" CheckLoginStatus="True" />
+<%--    <fvk:enablexresizable ID="EnableResizable1" runat="server" />
+--%>    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    <asp:Literal ID="ltrlAppWelcome" Text="<%$ Resources:GlobalSwapShop, APP_WELCOME %>"
+                                            runat="server"></asp:Literal>
+                </h1>
+            </div>
+            <div class="loginDisplay">
+               <div>
+               <asp:DropDownList ID="LanguageSelector" runat="server" AutoPostBack="True">
+                    <asp:ListItem Value="en-US">English</asp:ListItem>
+                    <asp:ListItem Value="es-MX">Español</asp:ListItem>
+                    <asp:ListItem Value="fr">Français</asp:ListItem>
+                    <asp:ListItem Value="pt-br">Português</asp:ListItem>
+                    <asp:ListItem Value="de">Deutsch</asp:ListItem>
+                    <asp:ListItem Value="zh-CHS">中国（繁体）</asp:ListItem>
+                    <asp:ListItem Value="it">Italiano</asp:ListItem>
+                    <asp:ListItem Value="el">Ελληνικά</asp:ListItem>
+                    <asp:ListItem Value="ja">日本</asp:ListItem>
+                    <asp:ListItem Value="ru">Русский</asp:ListItem>
+               </asp:DropDownList>
+               </div>
+               <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                     <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">Log In</a>
+                        ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold">
+                            <asp:LoginName ID="HeadLoginName" runat="server" />
+                        </span>! [
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                            LogoutPageUrl="~/" />
+                        ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" />
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" />
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </form>
+</body>
+</html>

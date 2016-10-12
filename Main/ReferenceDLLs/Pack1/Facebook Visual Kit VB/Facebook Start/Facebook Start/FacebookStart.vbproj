@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42155AF0-040D-4DDC-B3CC-EAA6B362EB0E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>FacebookStart</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FacebookStart.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FacebookStart.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facebook, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Libs\FDK\3.01\SDK_Binaries\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Web, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Libs\FDK\3.01\SDK_Binaries\Facebook.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\banner.png" />
+    <Content Include="Images\bookmark.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FVK\AddToProfileButton.ascx.designer.vb">
+      <DependentUpon>AddToProfileButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\AddToProfileButton.ascx.vb">
+      <DependentUpon>AddToProfileButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\BecomeFan.ascx.designer.vb">
+      <DependentUpon>BecomeFan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\BecomeFan.ascx.vb">
+      <DependentUpon>BecomeFan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\Bookmark.ascx.designer.vb">
+      <DependentUpon>Bookmark.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\Bookmark.ascx.vb">
+      <DependentUpon>Bookmark.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\ComponentParts\CommandTypeEnum.vb" />
+    <Compile Include="FVK\ComponentParts\Conversions.vb" />
+    <Compile Include="FVK\ComponentParts\FlashData.vb" />
+    <Compile Include="FVK\ComponentParts\FriendData.vb" />
+    <Compile Include="FVK\ComponentParts\IJSONSerialize.vb" />
+    <Compile Include="FVK\ComponentParts\ImageData.vb" />
+    <Compile Include="FVK\ComponentParts\LinkData.vb" />
+    <Compile Include="FVK\ComponentParts\LinkedPropertyData.vb" />
+    <Compile Include="FVK\ComponentParts\MP3Data.vb" />
+    <Compile Include="FVK\ComponentParts\PermissionEnum.vb" />
+    <Compile Include="FVK\ComponentParts\PropertyData.vb" />
+    <Compile Include="FVK\ComponentParts\SelectedFriend.vb" />
+    <Compile Include="FVK\ComponentParts\TabData.vb" />
+    <Compile Include="FVK\ComponentParts\VideoData.vb" />
+    <Compile Include="FVK\EnableResizable.ascx.designer.vb">
+      <DependentUpon>EnableResizable.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\EnableResizable.ascx.vb">
+      <DependentUpon>EnableResizable.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\EnableXFBML.ascx.designer.vb">
+      <DependentUpon>EnableXFBML.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\EnableXFBML.ascx.vb">
+      <DependentUpon>EnableXFBML.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\InviteControl.ascx.designer.vb">
+      <DependentUpon>InviteControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\InviteControl.ascx.vb">
+      <DependentUpon>InviteControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\InviteSmallControl.ascx.designer.vb">
+      <DependentUpon>InviteSmallControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\InviteSmallControl.ascx.vb">
+      <DependentUpon>InviteSmallControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\Permissions.ascx.designer.vb">
+      <DependentUpon>Permissions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\Permissions.ascx.vb">
+      <DependentUpon>Permissions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\SafariFix.ascx.designer.vb">
+      <DependentUpon>SafariFix.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\SafariFix.ascx.vb">
+      <DependentUpon>SafariFix.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\SelectFriends.ascx.designer.vb">
+      <DependentUpon>SelectFriends.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\SelectFriends.ascx.vb">
+      <DependentUpon>SelectFriends.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\SendUserStatus.ascx.designer.vb">
+      <DependentUpon>SendUserStatus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\SendUserStatus.ascx.vb">
+      <DependentUpon>SendUserStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\ShareButton.ascx.designer.vb">
+      <DependentUpon>ShareButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\ShareButton.ascx.vb">
+      <DependentUpon>ShareButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\StreamPublishFriendList.ascx.designer.vb">
+      <DependentUpon>StreamPublishFriendList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\StreamPublishFriendList.ascx.vb">
+      <DependentUpon>StreamPublishFriendList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\StreamPublishPopup.ascx.designer.vb">
+      <DependentUpon>StreamPublishPopup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\StreamPublishPopup.ascx.vb">
+      <DependentUpon>StreamPublishPopup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FVK\TabControl.ascx.designer.vb">
+      <DependentUpon>TabControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FVK\TabControl.ascx.vb">
+      <DependentUpon>TabControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GlobalData.vb">
+    </Compile>
+    <Compile Include="Master.Master.designer.vb">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.vb">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecondPage.aspx.designer.vb">
+      <DependentUpon>SecondPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecondPage.aspx.vb">
+      <DependentUpon>SecondPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invite.aspx.designer.vb">
+      <DependentUpon>Invite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invite.aspx.vb">
+      <DependentUpon>Invite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FVK\AddToProfileButton.ascx" />
+    <Content Include="FVK\BecomeFan.ascx" />
+    <Content Include="FVK\Bookmark.ascx" />
+    <Content Include="FVK\EnableResizable.ascx" />
+    <Content Include="FVK\EnableXFBML.ascx" />
+    <Content Include="FVK\fvk.css" />
+    <Content Include="FVK\InviteControl.ascx" />
+    <Content Include="FVK\InviteSmallControl.ascx" />
+    <Content Include="FVK\JavaScript\JSON.js" />
+    <Content Include="FVK\JavaScript\SendStatus.js" />
+    <Content Include="FVK\JavaScript\StreamPublishPopup.js" />
+    <Content Include="FVK\Permissions.ascx" />
+    <Content Include="FVK\SafariFix.ascx" />
+    <Content Include="FVK\SelectFriends.ascx" />
+    <Content Include="FVK\SendUserStatus.ascx" />
+    <Content Include="FVK\ShareButton.ascx" />
+    <Content Include="FVK\StreamPublishFriendList.ascx" />
+    <Content Include="FVK\StreamPublishPopup.ascx" />
+    <Content Include="FVK\TabControl.ascx" />
+    <Content Include="FVK\version_info.txt" />
+    <Content Include="FVK\xd_receiver.htm" />
+    <Content Include="Master.Master" />
+    <Content Include="Default.aspx" />
+    <Content Include="SecondPage.aspx" />
+    <Content Include="Invite.aspx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>8181</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
